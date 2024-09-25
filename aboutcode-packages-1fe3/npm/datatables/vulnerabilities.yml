@@ -1,4 +1,24 @@
+- purl: pkg:npm/datatables@1.10.5
+  affected_by_vulnerabilities:
+    - VCID-2yfp-j57w-zfex
+  fixing_vulnerabilities: []
+- purl: pkg:npm/datatables@1.10.5-dev
+  affected_by_vulnerabilities:
+    - VCID-2yfp-j57w-zfex
+  fixing_vulnerabilities: []
+- purl: pkg:npm/datatables@1.10.6
+  affected_by_vulnerabilities:
+    - VCID-2yfp-j57w-zfex
+  fixing_vulnerabilities: []
+- purl: pkg:npm/datatables@1.10.7
+  affected_by_vulnerabilities:
+    - VCID-2yfp-j57w-zfex
+  fixing_vulnerabilities: []
 - purl: pkg:npm/datatables@1.10.8
   affected_by_vulnerabilities:
     - VCID-2yfp-j57w-zfex
   fixing_vulnerabilities: []
+- purl: pkg:npm/datatables@1.10.9
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-2yfp-j57w-zfex

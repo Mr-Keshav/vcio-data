@@ -1,0 +1,31 @@
+vulnerability_id: VCID-3b2z-jj1j-vfey
+aliases:
+  - CVE-2019-15603
+summary: |
+  Cross-site Scripting (XSS) - Stored
+  [seeftl] Stored XSS when directory listing via filename.
+severities:
+  - score: '4.4'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/665302
+      reference_type:
+      reference_id:
+  - score: '4.4'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/511.json
+      reference_type:
+      reference_id: 511
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/665302
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/511.json
+    reference_type:
+    reference_id: 511

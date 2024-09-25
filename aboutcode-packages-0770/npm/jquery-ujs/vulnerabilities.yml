@@ -1,3 +1,11 @@
+- purl: pkg:npm/jquery-ujs@1.0.0
+  affected_by_vulnerabilities:
+    - VCID-bsrv-4q37-3kdz
+  fixing_vulnerabilities: []
+- purl: pkg:npm/jquery-ujs@1.0.2
+  affected_by_vulnerabilities:
+    - VCID-bsrv-4q37-3kdz
+  fixing_vulnerabilities: []
 - purl: pkg:npm/jquery-ujs@1.0.3
   affected_by_vulnerabilities:
     - VCID-bsrv-4q37-3kdz
