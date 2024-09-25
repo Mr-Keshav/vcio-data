@@ -1,0 +1,21 @@
+vulnerability_id: VCID-p23h-y3by-gkeg
+aliases:
+  - CVE-2014-3616
+summary: SSL session reuse vulnerability
+severities:
+  - score: medium
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2014/000147.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2014/000147.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2014-3616
+    reference_type:
+    reference_id: CVE-2014-3616

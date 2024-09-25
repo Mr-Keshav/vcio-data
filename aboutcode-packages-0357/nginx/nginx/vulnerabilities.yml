@@ -1,0 +1,443 @@
+- purl: pkg:nginx/nginx@0.1.0
+  affected_by_vulnerabilities:
+    - VCID-5z3u-mgep-1uhu
+    - VCID-cb8d-prst-zfb5
+    - VCID-d5k9-epsx-z7bu
+    - VCID-v1vd-epqk-ubex
+    - VCID-vgh9-4ur9-47ew
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.5.38
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-d5k9-epsx-z7bu
+    - VCID-v1vd-epqk-ubex
+- purl: pkg:nginx/nginx@0.5.6
+  affected_by_vulnerabilities:
+    - VCID-p23h-y3by-gkeg
+    - VCID-zgm7-fnqu-3ubq
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.6.18
+  affected_by_vulnerabilities:
+    - VCID-5x1s-spmy-nug6
+    - VCID-8wc3-wn3s-ybhe
+    - VCID-9cah-pwg2-xfgy
+    - VCID-a7fj-npvu-1uh5
+    - VCID-prun-zzhr-k7hw
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.6.39
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-d5k9-epsx-z7bu
+    - VCID-v1vd-epqk-ubex
+- purl: pkg:nginx/nginx@0.7.52?os=windows
+  affected_by_vulnerabilities:
+    - VCID-c72n-cjgd-5ues
+    - VCID-fbst-3276-7bbj
+    - VCID-k12y-wphq-tqf9
+    - VCID-xxyv-q5ma-eqg6
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.7.62
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-d5k9-epsx-z7bu
+    - VCID-v1vd-epqk-ubex
+- purl: pkg:nginx/nginx@0.7.63
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-5z3u-mgep-1uhu
+- purl: pkg:nginx/nginx@0.7.64
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-vgh9-4ur9-47ew
+- purl: pkg:nginx/nginx@0.7.65?os=windows
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-fbst-3276-7bbj
+- purl: pkg:nginx/nginx@0.7.66?os=windows
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-c72n-cjgd-5ues
+- purl: pkg:nginx/nginx@0.7.67?os=windows
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-k12y-wphq-tqf9
+- purl: pkg:nginx/nginx@0.8.13
+  affected_by_vulnerabilities:
+    - VCID-d5k9-epsx-z7bu
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.8.14
+  affected_by_vulnerabilities:
+    - VCID-v1vd-epqk-ubex
+  fixing_vulnerabilities:
+    - VCID-d5k9-epsx-z7bu
+- purl: pkg:nginx/nginx@0.8.15
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-v1vd-epqk-ubex
+- purl: pkg:nginx/nginx@0.8.16
+  affected_by_vulnerabilities:
+    - VCID-5z3u-mgep-1uhu
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.8.17
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-5z3u-mgep-1uhu
+- purl: pkg:nginx/nginx@0.8.22
+  affected_by_vulnerabilities:
+    - VCID-vgh9-4ur9-47ew
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.8.23
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-vgh9-4ur9-47ew
+- purl: pkg:nginx/nginx@0.8.32?os=windows
+  affected_by_vulnerabilities:
+    - VCID-fbst-3276-7bbj
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.8.33?os=windows
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-fbst-3276-7bbj
+- purl: pkg:nginx/nginx@0.8.39?os=windows
+  affected_by_vulnerabilities:
+    - VCID-c72n-cjgd-5ues
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.8.40?os=windows
+  affected_by_vulnerabilities:
+    - VCID-k12y-wphq-tqf9
+  fixing_vulnerabilities:
+    - VCID-c72n-cjgd-5ues
+- purl: pkg:nginx/nginx@0.8.41
+  affected_by_vulnerabilities:
+    - VCID-2t3z-v4wb-xucn
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@0.8.41?os=windows
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-k12y-wphq-tqf9
+- purl: pkg:nginx/nginx@1.0.10
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-9cah-pwg2-xfgy
+- purl: pkg:nginx/nginx@1.0.14
+  affected_by_vulnerabilities:
+    - VCID-y2g7-ypmb-jqe6
+  fixing_vulnerabilities:
+    - VCID-cb8d-prst-zfb5
+- purl: pkg:nginx/nginx@1.0.15
+  affected_by_vulnerabilities:
+    - VCID-19k5-mnsz-bugr
+    - VCID-k4wx-ffkq-1fbk
+    - VCID-uyzc-ugy5-pqak
+  fixing_vulnerabilities:
+    - VCID-y2g7-ypmb-jqe6
+- purl: pkg:nginx/nginx@1.0.7
+  affected_by_vulnerabilities:
+    - VCID-19k5-mnsz-bugr
+    - VCID-k4wx-ffkq-1fbk
+    - VCID-uyzc-ugy5-pqak
+    - VCID-y2g7-ypmb-jqe6
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.10.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1by1-kqqj-p3fn
+- purl: pkg:nginx/nginx@1.11.0
+  affected_by_vulnerabilities:
+    - VCID-1by1-kqqj-p3fn
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.11.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1by1-kqqj-p3fn
+- purl: pkg:nginx/nginx@1.1.16
+  affected_by_vulnerabilities:
+    - VCID-cb8d-prst-zfb5
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.1.17
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-cb8d-prst-zfb5
+- purl: pkg:nginx/nginx@1.1.18
+  affected_by_vulnerabilities:
+    - VCID-y2g7-ypmb-jqe6
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.1.19
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-y2g7-ypmb-jqe6
+- purl: pkg:nginx/nginx@1.12.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-zgm7-fnqu-3ubq
+- purl: pkg:nginx/nginx@1.1.3
+  affected_by_vulnerabilities:
+    - VCID-19k5-mnsz-bugr
+    - VCID-k4wx-ffkq-1fbk
+    - VCID-uyzc-ugy5-pqak
+    - VCID-y2g7-ypmb-jqe6
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.13.2
+  affected_by_vulnerabilities:
+    - VCID-zgm7-fnqu-3ubq
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.13.3
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-zgm7-fnqu-3ubq
+- purl: pkg:nginx/nginx@1.1.4
+  affected_by_vulnerabilities:
+    - VCID-1q9m-brz2-h7df
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.14.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-19k5-mnsz-bugr
+    - VCID-8z2w-6eq8-zygn
+    - VCID-x8ba-yy1c-e7bc
+- purl: pkg:nginx/nginx@1.15.5
+  affected_by_vulnerabilities:
+    - VCID-19k5-mnsz-bugr
+    - VCID-8z2w-6eq8-zygn
+    - VCID-x8ba-yy1c-e7bc
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.15.6
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-19k5-mnsz-bugr
+    - VCID-8z2w-6eq8-zygn
+    - VCID-x8ba-yy1c-e7bc
+- purl: pkg:nginx/nginx@1.16.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-dwyb-18us-tyey
+    - VCID-scfc-fx2d-37ea
+    - VCID-zee2-n4he-f3f8
+- purl: pkg:nginx/nginx@1.1.7
+  affected_by_vulnerabilities:
+    - VCID-9cah-pwg2-xfgy
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.17.2
+  affected_by_vulnerabilities:
+    - VCID-dwyb-18us-tyey
+    - VCID-scfc-fx2d-37ea
+    - VCID-zee2-n4he-f3f8
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.17.3
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-dwyb-18us-tyey
+    - VCID-scfc-fx2d-37ea
+    - VCID-zee2-n4he-f3f8
+- purl: pkg:nginx/nginx@1.1.8
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-9cah-pwg2-xfgy
+- purl: pkg:nginx/nginx@1.20.0
+  affected_by_vulnerabilities:
+    - VCID-prun-zzhr-k7hw
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.20.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-prun-zzhr-k7hw
+- purl: pkg:nginx/nginx@1.2.1?os=windows
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-xxyv-q5ma-eqg6
+- purl: pkg:nginx/nginx@1.21.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-prun-zzhr-k7hw
+- purl: pkg:nginx/nginx@1.22.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-k4wx-ffkq-1fbk
+    - VCID-uyzc-ugy5-pqak
+- purl: pkg:nginx/nginx@1.23.1
+  affected_by_vulnerabilities:
+    - VCID-k4wx-ffkq-1fbk
+    - VCID-uyzc-ugy5-pqak
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.23.2
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-k4wx-ffkq-1fbk
+    - VCID-uyzc-ugy5-pqak
+- purl: pkg:nginx/nginx@1.25.0
+  affected_by_vulnerabilities:
+    - VCID-13k9-ftvv-67bf
+    - VCID-7t5t-3ev4-4qd8
+    - VCID-cnrh-7cbr-5fhx
+    - VCID-fvec-vv4d-buck
+    - VCID-vebj-4mje-ryaf
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.25.3
+  affected_by_vulnerabilities:
+    - VCID-b9ed-vjpv-jkfc
+    - VCID-cnrh-7cbr-5fhx
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.25.4
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-b9ed-vjpv-jkfc
+    - VCID-cnrh-7cbr-5fhx
+- purl: pkg:nginx/nginx@1.25.5
+  affected_by_vulnerabilities:
+    - VCID-13k9-ftvv-67bf
+    - VCID-7t5t-3ev4-4qd8
+    - VCID-fvec-vv4d-buck
+    - VCID-vebj-4mje-ryaf
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.26.0
+  affected_by_vulnerabilities:
+    - VCID-13k9-ftvv-67bf
+    - VCID-7t5t-3ev4-4qd8
+    - VCID-fvec-vv4d-buck
+    - VCID-vebj-4mje-ryaf
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.26.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-13k9-ftvv-67bf
+    - VCID-7t5t-3ev4-4qd8
+    - VCID-fvec-vv4d-buck
+    - VCID-vebj-4mje-ryaf
+- purl: pkg:nginx/nginx@1.26.2
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1yft-6ns9-e7ha
+- purl: pkg:nginx/nginx@1.27.0
+  affected_by_vulnerabilities:
+    - VCID-1yft-6ns9-e7ha
+  fixing_vulnerabilities:
+    - VCID-13k9-ftvv-67bf
+    - VCID-7t5t-3ev4-4qd8
+    - VCID-fvec-vv4d-buck
+    - VCID-vebj-4mje-ryaf
+- purl: pkg:nginx/nginx@1.27.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1yft-6ns9-e7ha
+- purl: pkg:nginx/nginx@1.2.8
+  affected_by_vulnerabilities:
+    - VCID-1q9m-brz2-h7df
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.2.9
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1q9m-brz2-h7df
+- purl: pkg:nginx/nginx@1.3.0?os=windows
+  affected_by_vulnerabilities:
+    - VCID-xxyv-q5ma-eqg6
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.3.1?os=windows
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-xxyv-q5ma-eqg6
+- purl: pkg:nginx/nginx@1.3.15
+  affected_by_vulnerabilities:
+    - VCID-zqbx-ndke-pkg4
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.3.9
+  affected_by_vulnerabilities:
+    - VCID-1by1-kqqj-p3fn
+    - VCID-1q9m-brz2-h7df
+    - VCID-2dc9-jgyy-4yhk
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.4.0
+  affected_by_vulnerabilities:
+    - VCID-1q9m-brz2-h7df
+    - VCID-2dc9-jgyy-4yhk
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.4.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1q9m-brz2-h7df
+    - VCID-2dc9-jgyy-4yhk
+- purl: pkg:nginx/nginx@1.4.4
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-2t3z-v4wb-xucn
+- purl: pkg:nginx/nginx@1.4.7
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-zqbx-ndke-pkg4
+- purl: pkg:nginx/nginx@1.5.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1q9m-brz2-h7df
+    - VCID-2dc9-jgyy-4yhk
+- purl: pkg:nginx/nginx@1.5.10
+  affected_by_vulnerabilities:
+    - VCID-58d8-pemq-1ygn
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.5.11
+  affected_by_vulnerabilities:
+    - VCID-zqbx-ndke-pkg4
+  fixing_vulnerabilities:
+    - VCID-58d8-pemq-1ygn
+- purl: pkg:nginx/nginx@1.5.12
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-zqbx-ndke-pkg4
+- purl: pkg:nginx/nginx@1.5.13
+  affected_by_vulnerabilities:
+    - VCID-1yft-6ns9-e7ha
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.5.6
+  affected_by_vulnerabilities:
+    - VCID-2t3z-v4wb-xucn
+    - VCID-krc2-gcxq-2fc8
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.5.7
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-2t3z-v4wb-xucn
+- purl: pkg:nginx/nginx@1.6.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-krc2-gcxq-2fc8
+- purl: pkg:nginx/nginx@1.6.2
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-p23h-y3by-gkeg
+- purl: pkg:nginx/nginx@1.7.3
+  affected_by_vulnerabilities:
+    - VCID-krc2-gcxq-2fc8
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.7.4
+  affected_by_vulnerabilities:
+    - VCID-p23h-y3by-gkeg
+  fixing_vulnerabilities:
+    - VCID-krc2-gcxq-2fc8
+- purl: pkg:nginx/nginx@1.7.5
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-p23h-y3by-gkeg
+- purl: pkg:nginx/nginx@1.8.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-5x1s-spmy-nug6
+    - VCID-8wc3-wn3s-ybhe
+    - VCID-a7fj-npvu-1uh5
+- purl: pkg:nginx/nginx@1.9.10
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-5x1s-spmy-nug6
+    - VCID-8wc3-wn3s-ybhe
+    - VCID-a7fj-npvu-1uh5
+- purl: pkg:nginx/nginx@1.9.5
+  affected_by_vulnerabilities:
+    - VCID-8z2w-6eq8-zygn
+    - VCID-dwyb-18us-tyey
+    - VCID-scfc-fx2d-37ea
+    - VCID-x8ba-yy1c-e7bc
+    - VCID-zee2-n4he-f3f8
+  fixing_vulnerabilities: []
+- purl: pkg:nginx/nginx@1.9.9
+  affected_by_vulnerabilities:
+    - VCID-5x1s-spmy-nug6
+    - VCID-8wc3-wn3s-ybhe
+    - VCID-a7fj-npvu-1uh5
+  fixing_vulnerabilities: []

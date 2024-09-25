@@ -1,0 +1,10 @@
+vulnerability_id: VCID-9cah-pwg2-xfgy
+aliases:
+  - CVE-2011-4315
+summary: Buffer overflow in resolver
+severities: []
+weaknesses: []
+references:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2011-4315
+    reference_type:
+    reference_id: CVE-2011-4315

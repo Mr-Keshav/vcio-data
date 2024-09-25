@@ -1,0 +1,21 @@
+vulnerability_id: VCID-5x1s-spmy-nug6
+aliases:
+  - CVE-2016-0746
+summary: Use-after-free during CNAME response processing in resolver
+severities:
+  - score: medium
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2016/000169.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2016/000169.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2016-0746
+    reference_type:
+    reference_id: CVE-2016-0746

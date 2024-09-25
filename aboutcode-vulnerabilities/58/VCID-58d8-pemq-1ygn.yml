@@ -1,0 +1,19 @@
+vulnerability_id: VCID-58d8-pemq-1ygn
+aliases:
+  - CVE-2014-0088
+summary: SPDY memory corruption
+severities: []
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2014/000132.html
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2014.spdy.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2014.spdy.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2014-0088
+    reference_type:
+    reference_id: CVE-2014-0088

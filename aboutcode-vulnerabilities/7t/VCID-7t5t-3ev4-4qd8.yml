@@ -1,0 +1,21 @@
+vulnerability_id: VCID-7t5t-3ev4-4qd8
+aliases:
+  - CVE-2024-34161
+summary: Memory disclosure in HTTP/3
+severities:
+  - score: medium
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2024/GMY32CSHFH6VFTN76HJNX7WNEX4RLHF6.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2024/GMY32CSHFH6VFTN76HJNX7WNEX4RLHF6.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2024-34161
+    reference_type:
+    reference_id: CVE-2024-34161

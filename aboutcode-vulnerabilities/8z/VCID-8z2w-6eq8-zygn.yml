@@ -1,0 +1,21 @@
+vulnerability_id: VCID-8z2w-6eq8-zygn
+aliases:
+  - CVE-2018-16843
+summary: Excessive memory usage in HTTP/2
+severities:
+  - score: low
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2018/000220.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2018/000220.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2018-16843
+    reference_type:
+    reference_id: CVE-2018-16843

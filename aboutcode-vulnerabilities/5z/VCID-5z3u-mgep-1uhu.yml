@@ -1,0 +1,10 @@
+vulnerability_id: VCID-5z3u-mgep-1uhu
+aliases:
+  - CVE-2009-3898
+summary: Directory traversal vulnerability
+severities: []
+weaknesses: []
+references:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2009-3898
+    reference_type:
+    reference_id: CVE-2009-3898

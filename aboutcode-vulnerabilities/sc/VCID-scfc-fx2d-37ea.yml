@@ -1,0 +1,21 @@
+vulnerability_id: VCID-scfc-fx2d-37ea
+aliases:
+  - CVE-2019-9511
+summary: Excessive CPU usage in HTTP/2 with small window updates
+severities:
+  - score: low
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2019/000249.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2019/000249.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2019-9511
+    reference_type:
+    reference_id: CVE-2019-9511

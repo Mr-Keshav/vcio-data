@@ -1,0 +1,21 @@
+vulnerability_id: VCID-xxyv-q5ma-eqg6
+aliases:
+  - CVE-2011-4963
+summary: Vulnerabilities with Windows directory aliases
+severities:
+  - score: medium
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2012/000086.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2012/000086.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2011-4963
+    reference_type:
+    reference_id: CVE-2011-4963

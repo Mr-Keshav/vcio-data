@@ -1,0 +1,21 @@
+vulnerability_id: VCID-zee2-n4he-f3f8
+aliases:
+  - CVE-2019-9513
+summary: Excessive CPU usage in HTTP/2 with priority changes
+severities:
+  - score: low
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2019/000249.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2019/000249.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2019-9513
+    reference_type:
+    reference_id: CVE-2019-9513
