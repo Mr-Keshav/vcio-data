@@ -1,0 +1,42 @@
+vulnerability_id: VCID-gane-f356-7ud5
+aliases:
+  - CVE-2015-8856
+summary: |
+  Cross-Site Scripting
+  When using serve-index middleware version < 1.6.3 file and directory names are not escaped in HTML output. If remote users can influence file or directory names, this can trigger a persistent XSS attack.
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/expressjs/serve-index/issues/28
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/34.json
+      reference_type:
+      reference_id: 34
+weaknesses: []
+references:
+  - url: https://github.com/expressjs/serve-index/issues/28
+    reference_type:
+    reference_id:
+  - url: https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/34.json
+    reference_type:
+    reference_id: 34

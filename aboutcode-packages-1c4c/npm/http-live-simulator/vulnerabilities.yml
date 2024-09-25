@@ -1,0 +1,8 @@
+- purl: pkg:npm/http-live-simulator@1.0.6
+  affected_by_vulnerabilities:
+    - VCID-4n1d-6zvg-b3cy
+  fixing_vulnerabilities: []
+- purl: pkg:npm/http-live-simulator@1.0.7
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-4n1d-6zvg-b3cy

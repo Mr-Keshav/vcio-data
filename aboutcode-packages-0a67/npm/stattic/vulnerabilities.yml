@@ -1,0 +1,4 @@
+- purl: pkg:npm/stattic@0.3.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-nncu-dufm-5bda

@@ -1,0 +1,8 @@
+- purl: pkg:npm/jqtree@1.3.3
+  affected_by_vulnerabilities:
+    - VCID-gtk7-ngrf-d3gt
+  fixing_vulnerabilities: []
+- purl: pkg:npm/jqtree@1.3.4
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-gtk7-ngrf-d3gt

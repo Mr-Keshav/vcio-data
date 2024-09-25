@@ -1,0 +1,31 @@
+vulnerability_id: VCID-u88n-mpjp-pfbt
+aliases:
+  - CVE-2018-1002203
+summary: |
+  Arbitrary File Write Through Archive Extraction
+  attackers can write arbitrary files when a malicious archive is extracted.
+severities:
+  - score: '8.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/362119
+      reference_type:
+      reference_id:
+  - score: '8.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/459.json
+      reference_type:
+      reference_id: 459
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/362119
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/459.json
+    reference_type:
+    reference_id: 459

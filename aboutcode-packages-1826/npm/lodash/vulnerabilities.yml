@@ -1,0 +1,8 @@
+- purl: pkg:npm/lodash@4.17.11
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-gk6r-1r5p-tbbk
+- purl: pkg:npm/lodash@4.17.5
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-9sdy-b2hz-e3dy

@@ -1,0 +1,16 @@
+- purl: pkg:npm/mqtt@0.3.13
+  affected_by_vulnerabilities:
+    - VCID-5atv-kkc3-v7g8
+  fixing_vulnerabilities: []
+- purl: pkg:npm/mqtt@1.0.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-5atv-kkc3-v7g8
+- purl: pkg:npm/mqtt@2.0.0
+  affected_by_vulnerabilities:
+    - VCID-78m3-q8xa-qfcy
+  fixing_vulnerabilities: []
+- purl: pkg:npm/mqtt@2.15.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-78m3-q8xa-qfcy

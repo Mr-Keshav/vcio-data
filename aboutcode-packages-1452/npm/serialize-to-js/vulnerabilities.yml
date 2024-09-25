@@ -1,0 +1,8 @@
+- purl: pkg:npm/serialize-to-js@0.5.0
+  affected_by_vulnerabilities:
+    - VCID-9v6y-g514-nbaa
+  fixing_vulnerabilities: []
+- purl: pkg:npm/serialize-to-js@1.0.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-9v6y-g514-nbaa

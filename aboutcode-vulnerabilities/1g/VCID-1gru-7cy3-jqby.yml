@@ -1,0 +1,29 @@
+vulnerability_id: VCID-1gru-7cy3-jqby
+aliases:
+  - CVE-2018-3744
+summary: Path Traversal in html-pages module allows to read any file from the server with curl
+severities:
+  - score: '9.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/306607
+      reference_type:
+      reference_id:
+  - score: '9.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/420.json
+      reference_type:
+      reference_id: 420
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/306607
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/420.json
+    reference_type:
+    reference_id: 420

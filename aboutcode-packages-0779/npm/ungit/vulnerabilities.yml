@@ -1,0 +1,8 @@
+- purl: pkg:npm/ungit@0.8.4
+  affected_by_vulnerabilities:
+    - VCID-7uxh-6qqg-b3ap
+  fixing_vulnerabilities: []
+- purl: pkg:npm/ungit@0.9.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-7uxh-6qqg-b3ap

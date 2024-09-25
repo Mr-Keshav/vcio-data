@@ -1,0 +1,4 @@
+- purl: pkg:npm/knightjs@0.0.1
+  affected_by_vulnerabilities:
+    - VCID-uuv4-xzv8-53au
+  fixing_vulnerabilities: []

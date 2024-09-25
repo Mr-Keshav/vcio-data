@@ -1,0 +1,31 @@
+vulnerability_id: VCID-jx4v-dd52-8ue9
+aliases:
+  - CVE-2019-5483
+summary: |
+  Information Exposure Through an Error Message
+  environment variable leakage in error reporting
+severities:
+  - score: '3.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/526258
+      reference_type:
+      reference_id:
+  - score: '3.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/501.json
+      reference_type:
+      reference_id: 501
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/526258
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/501.json
+    reference_type:
+    reference_id: 501

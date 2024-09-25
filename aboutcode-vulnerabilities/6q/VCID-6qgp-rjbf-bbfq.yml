@@ -1,0 +1,42 @@
+vulnerability_id: VCID-6qgp-rjbf-bbfq
+aliases:
+  - CVE-2014-7205
+summary: |
+  Arbitrary JavaScript Execution
+  A vulnerability exists in bassmaster <= 1.5.1 that allows for an attacker to provide arbitrary JavaScript that is then executed server side via eval.
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/hapijs/bassmaster/commit/b751602d8cb7194ee62a61e085069679525138c4
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://www.npmjs.org/package/bassmaster
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/1.json
+      reference_type:
+      reference_id: 1
+weaknesses: []
+references:
+  - url: https://github.com/hapijs/bassmaster/commit/b751602d8cb7194ee62a61e085069679525138c4
+    reference_type:
+    reference_id:
+  - url: https://www.npmjs.org/package/bassmaster
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/1.json
+    reference_type:
+    reference_id: 1

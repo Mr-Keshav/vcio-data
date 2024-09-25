@@ -1,0 +1,12 @@
+- purl: pkg:npm/sequelize@2.0.0-rc7
+  affected_by_vulnerabilities:
+    - VCID-erdn-ye19-cyac
+  fixing_vulnerabilities: []
+- purl: pkg:npm/sequelize@2.0.0-rc8
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-erdn-ye19-cyac
+- purl: pkg:npm/sequelize@3.23.6
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-9etb-t883-63a9

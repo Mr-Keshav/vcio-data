@@ -1,0 +1,4 @@
+- purl: pkg:npm/yar@2.2.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-rf6n-yn4e-tuf1

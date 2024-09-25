@@ -1,0 +1,31 @@
+vulnerability_id: VCID-54x5-921s-3ygv
+aliases:
+  - CVE-2018-3714
+summary: |
+  Path Traversal
+  node-srv path traversal allows to read arbitrary files from remote server
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/309124
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/383.json
+      reference_type:
+      reference_id: 383
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/309124
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/383.json
+    reference_type:
+    reference_id: 383

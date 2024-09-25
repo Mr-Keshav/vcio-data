@@ -1,0 +1,22 @@
+vulnerability_id: VCID-brce-xu1y-yff1
+aliases:
+  - CVE-2016-1000224
+summary: |
+  Insecure Defaults Leads to Potential MITM
+  ezseed-transmission is a module that provides shell bindings for Ezseed transmission.
+
+  Between versions 0.0.10 and 0.0.14 (inclusive), ezseed-transmission would download a script from `http://stedolan.github.io/jq/download/linux64/jq` without checking the certificate.  An attacker on the same network or on an ISP level could intercept the traffic and push their own version of the file, causing the attackers code to be executed.
+severities:
+  - score: '4.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/114.json
+      reference_type:
+      reference_id: 114
+weaknesses: []
+references:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/114.json
+    reference_type:
+    reference_id: 114

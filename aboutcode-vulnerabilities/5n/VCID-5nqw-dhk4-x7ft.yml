@@ -1,0 +1,42 @@
+vulnerability_id: VCID-5nqw-dhk4-x7ft
+aliases:
+  - CVE-2018-15685
+summary: |
+  Command Injection
+  [electron] A remote code execution vulnerability has been discovered affecting apps with the ability to open nested child windows on Electron versions (3.0.0-beta.6, 2.0.7, 1.8.7, and 1.7.15).
+severities:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://electronjs.org/blog/web-preferences-fix
+      reference_type:
+      reference_id:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://www.contrastsecurity.com/security-influencers/cve-2018-15685
+      reference_type:
+      reference_id:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/466.json
+      reference_type:
+      reference_id: 466
+weaknesses: []
+references:
+  - url: https://electronjs.org/blog/web-preferences-fix
+    reference_type:
+    reference_id:
+  - url: https://www.contrastsecurity.com/security-influencers/cve-2018-15685
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/466.json
+    reference_type:
+    reference_id: 466

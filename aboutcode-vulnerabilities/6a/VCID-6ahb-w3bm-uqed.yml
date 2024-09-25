@@ -1,0 +1,31 @@
+vulnerability_id: VCID-6ahb-w3bm-uqed
+aliases:
+  - CVE-2018-3716
+summary: |
+  Cross-Site Scripting (XSS) - Stored
+  simplehttpserver suffers from Stored XSS in file names leads to malicious JavaScript code execution when directory listing is output in HTML
+severities:
+  - score: '9.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/309648
+      reference_type:
+      reference_id:
+  - score: '9.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/380.json
+      reference_type:
+      reference_id: 380
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/309648
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/380.json
+    reference_type:
+    reference_id: 380

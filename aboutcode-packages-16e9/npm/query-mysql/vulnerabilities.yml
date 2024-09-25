@@ -1,0 +1,4 @@
+- purl: pkg:npm/query-mysql@0.0.2
+  affected_by_vulnerabilities:
+    - VCID-5msg-jpaf-xfcb
+  fixing_vulnerabilities: []

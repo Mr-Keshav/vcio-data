@@ -1,0 +1,8 @@
+- purl: pkg:npm/express-cart@1.1.5
+  affected_by_vulnerabilities:
+    - VCID-rpmj-sfa1-buhm
+  fixing_vulnerabilities: []
+- purl: pkg:npm/express-cart@1.1.7
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-rpmj-sfa1-buhm

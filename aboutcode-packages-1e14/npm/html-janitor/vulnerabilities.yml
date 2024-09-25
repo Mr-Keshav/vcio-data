@@ -1,0 +1,5 @@
+- purl: pkg:npm/html-janitor@2.0.2
+  affected_by_vulnerabilities:
+    - VCID-6fu6-87mx-efhb
+    - VCID-cxp9-jhkt-nfbz
+  fixing_vulnerabilities: []

@@ -1,0 +1,31 @@
+vulnerability_id: VCID-c5yr-r2uc-53dw
+aliases:
+  - CVE-2018-3712
+summary: |
+  Directory Traversal
+  serve handles directory listing on its own and does not protect against listing of any directory on the remote server.
+severities:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/307666
+      reference_type:
+      reference_id:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/363.json
+      reference_type:
+      reference_id: 363
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/307666
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/363.json
+    reference_type:
+    reference_id: 363

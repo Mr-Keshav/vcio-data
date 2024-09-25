@@ -1,0 +1,46 @@
+vulnerability_id: VCID-gfbq-w442-hye1
+aliases:
+  - CVE-2015-8854
+summary: |
+  Regular Expression Denial of Service
+  Marked 0.3.3 and earlier is vulnerable to regular expression denial of service (ReDoS) when certain types of input are passed in to be parsed.
+
+  "The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time." [1]
+
+  Marked's catastrophic backtracking issue for the `em` inline rule has now been patched in 0.3.4.
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/chjj/marked/issues/497
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/23.json
+      reference_type:
+      reference_id: 23
+weaknesses: []
+references:
+  - url: https://github.com/chjj/marked/issues/497
+    reference_type:
+    reference_id:
+  - url: https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/23.json
+    reference_type:
+    reference_id: 23

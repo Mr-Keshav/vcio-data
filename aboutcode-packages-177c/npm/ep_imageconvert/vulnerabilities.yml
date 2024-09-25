@@ -1,0 +1,10 @@
+- purl: pkg:npm/ep_imageconvert@0.0.2
+  affected_by_vulnerabilities:
+    - VCID-9anp-vpzr-pfa9
+    - VCID-jk8q-bn1k-7feh
+  fixing_vulnerabilities: []
+- purl: pkg:npm/ep_imageconvert@0.0.3
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-9anp-vpzr-pfa9
+    - VCID-jk8q-bn1k-7feh

@@ -1,0 +1,12 @@
+- purl: pkg:npm/ezseed-transmission@0.0.10
+  affected_by_vulnerabilities:
+    - VCID-brce-xu1y-yff1
+  fixing_vulnerabilities: []
+- purl: pkg:npm/ezseed-transmission@0.0.14
+  affected_by_vulnerabilities:
+    - VCID-brce-xu1y-yff1
+  fixing_vulnerabilities: []
+- purl: pkg:npm/ezseed-transmission@0.0.15
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-brce-xu1y-yff1

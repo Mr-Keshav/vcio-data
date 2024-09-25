@@ -1,0 +1,42 @@
+vulnerability_id: VCID-a7zp-hgee-ykc6
+aliases:
+  - CVE-2018-16472
+summary: |
+  Denial of Service
+  Prototype Pollution Vulnerability in cached-path-relative Package
+severities:
+  - score: '7.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/ashaffer/cached-path-relative/issues/3
+      reference_type:
+      reference_id:
+  - score: '7.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/390847
+      reference_type:
+      reference_id:
+  - score: '7.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/480.json
+      reference_type:
+      reference_id: 480
+weaknesses: []
+references:
+  - url: https://github.com/ashaffer/cached-path-relative/issues/3
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/390847
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/480.json
+    reference_type:
+    reference_id: 480

@@ -1,0 +1,4 @@
+- purl: pkg:npm/seneca@3.9.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-jx4v-dd52-8ue9

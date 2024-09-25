@@ -1,0 +1,4 @@
+- purl: pkg:npm/geddy@13.0.8
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-a83k-r7uf-c7g6

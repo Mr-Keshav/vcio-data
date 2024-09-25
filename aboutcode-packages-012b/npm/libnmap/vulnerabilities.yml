@@ -1,0 +1,4 @@
+- purl: pkg:npm/libnmap@0.4.16
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-rwk8-17ph-eqgm

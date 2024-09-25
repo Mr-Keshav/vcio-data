@@ -1,0 +1,31 @@
+vulnerability_id: VCID-wqrn-d8t8-dybn
+aliases:
+  - CVE-2019-15599
+summary: |
+  Code Injection
+  [tree-kill] RCE via insecure command concatenation (only Windows)
+severities:
+  - score: 7
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/701183
+      reference_type:
+      reference_id:
+  - score: 7
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/508.json
+      reference_type:
+      reference_id: 508
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/701183
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/508.json
+    reference_type:
+    reference_id: 508

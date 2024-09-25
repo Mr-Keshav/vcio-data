@@ -1,0 +1,42 @@
+vulnerability_id: VCID-rmtn-axuc-pufp
+aliases:
+  - CVE-2018-3772
+summary: |
+  Command Injection - Generic
+  `whereis` concatenates unsanitized input into exec() command
+severities:
+  - score: '9.9'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/vvo/node-whereis/commit/0f64e3780235004fb6e43bfd153ea3e0e210ee2b
+      reference_type:
+      reference_id:
+  - score: '9.9'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/319476
+      reference_type:
+      reference_id:
+  - score: '9.9'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/399.json
+      reference_type:
+      reference_id: 399
+weaknesses: []
+references:
+  - url: https://github.com/vvo/node-whereis/commit/0f64e3780235004fb6e43bfd153ea3e0e210ee2b
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/319476
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/399.json
+    reference_type:
+    reference_id: 399

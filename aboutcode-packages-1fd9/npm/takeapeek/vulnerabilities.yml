@@ -1,0 +1,4 @@
+- purl: pkg:npm/takeapeek@0.2.2
+  affected_by_vulnerabilities:
+    - VCID-pw4k-vmch-v7e3
+  fixing_vulnerabilities: []

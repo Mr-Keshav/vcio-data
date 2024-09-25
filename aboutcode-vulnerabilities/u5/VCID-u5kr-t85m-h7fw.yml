@@ -1,0 +1,23 @@
+vulnerability_id: VCID-u5kr-t85m-h7fw
+aliases:
+  - CVE-2013-7378
+summary: |
+  Potential Command Injection
+  Untrusted input passed in to the hubot-scripts/package/src/scripts/email.coffee module can allow for command injection. This may be unexpected behavior for the caller.
+
+  ### Mitigating Factors
+  The email script is not enabled by default, it has to be manually added to hubot's list of loaded scripts.
+severities:
+  - score: '4.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/13.json
+      reference_type:
+      reference_id: 13
+weaknesses: []
+references:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/13.json
+    reference_type:
+    reference_id: 13

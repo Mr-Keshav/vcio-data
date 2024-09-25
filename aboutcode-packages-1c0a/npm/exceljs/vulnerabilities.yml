@@ -1,0 +1,4 @@
+- purl: pkg:npm/exceljs@1.6.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-f5hy-yyg8-pqb6

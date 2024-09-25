@@ -1,0 +1,29 @@
+vulnerability_id: VCID-2dvx-9wnh-eug7
+aliases:
+  - CVE-2018-3727
+summary: 626 Path Traversal allows to read arbitrary file from remote server
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/311216
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/378.json
+      reference_type:
+      reference_id: 378
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/311216
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/378.json
+    reference_type:
+    reference_id: 378

@@ -1,0 +1,31 @@
+vulnerability_id: VCID-rd4a-7ts4-dyda
+aliases:
+  - CVE-2018-1002204
+summary: |
+  Arbitrary File Write Through Archive Extraction
+  attackers can write arbitrary files when a malicious archive is extracted.
+severities:
+  - score: '8.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/362118
+      reference_type:
+      reference_id:
+  - score: '8.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/458.json
+      reference_type:
+      reference_id: 458
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/362118
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/458.json
+    reference_type:
+    reference_id: 458

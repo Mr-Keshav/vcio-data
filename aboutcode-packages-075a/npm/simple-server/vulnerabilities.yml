@@ -1,0 +1,4 @@
+- purl: pkg:npm/simple-server@1.1.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-mgpy-tg9j-muhg

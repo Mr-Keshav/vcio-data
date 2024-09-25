@@ -1,0 +1,30 @@
+vulnerability_id: VCID-5msg-jpaf-xfcb
+aliases:
+  - CVE-2018-3754
+summary: SQL Injection due to lack of user input sanitization allows to run arbitrary SQL queries
+  when fetching data from database
+severities:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/311244
+      reference_type:
+      reference_id:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/430.json
+      reference_type:
+      reference_id: 430
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/311244
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/430.json
+    reference_type:
+    reference_id: 430

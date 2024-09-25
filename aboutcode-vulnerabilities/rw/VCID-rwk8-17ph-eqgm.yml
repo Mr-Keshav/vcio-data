@@ -1,0 +1,31 @@
+vulnerability_id: VCID-rwk8-17ph-eqgm
+aliases:
+  - CVE-2018-16461
+summary: |
+  Command Injection - Generic
+  Command Injection Vulnerability in libnmap Package
+severities:
+  - score: '6.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/390865
+      reference_type:
+      reference_id:
+  - score: '6.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/474.json
+      reference_type:
+      reference_id: 474
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/390865
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/474.json
+    reference_type:
+    reference_id: 474

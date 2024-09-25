@@ -1,0 +1,31 @@
+vulnerability_id: VCID-cjdu-9b8b-nqfz
+aliases:
+  - CVE-2019-5437
+summary: |
+  Information Exposure Through Directory Listing
+  [harp] File access even when they have been set to be ignored.
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/453820
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/498.json
+      reference_type:
+      reference_id: 498
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/453820
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/498.json
+    reference_type:
+    reference_id: 498

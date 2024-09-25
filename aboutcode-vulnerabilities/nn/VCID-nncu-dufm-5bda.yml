@@ -1,0 +1,31 @@
+vulnerability_id: VCID-nncu-dufm-5bda
+aliases:
+  - CVE-2018-3734
+summary: |
+  Path Traversal
+  stattic inproper path validation leads to path traversal and allows to read arbitrary files with any extension(s)
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/319003
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/386.json
+      reference_type:
+      reference_id: 386
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/319003
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/386.json
+    reference_type:
+    reference_id: 386

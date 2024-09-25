@@ -1,0 +1,4 @@
+- purl: pkg:npm/memjs@1.1.0
+  affected_by_vulnerabilities:
+    - VCID-84nf-xvez-pfbq
+  fixing_vulnerabilities: []

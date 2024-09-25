@@ -1,0 +1,12 @@
+- purl: pkg:npm/mqtt-packet@4.0.0
+  affected_by_vulnerabilities:
+    - VCID-b65w-ar17-fuhk
+  fixing_vulnerabilities: []
+- purl: pkg:npm/mqtt-packet@5.0.0
+  affected_by_vulnerabilities:
+    - VCID-b65w-ar17-fuhk
+  fixing_vulnerabilities: []
+- purl: pkg:npm/mqtt-packet@6.0.0
+  affected_by_vulnerabilities:
+    - VCID-b65w-ar17-fuhk
+  fixing_vulnerabilities: []

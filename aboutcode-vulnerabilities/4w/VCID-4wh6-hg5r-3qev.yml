@@ -1,0 +1,31 @@
+vulnerability_id: VCID-4wh6-hg5r-3qev
+aliases:
+  - CVE-2018-3757
+summary: |
+  Command Injection - Generic
+  Command injection in 'pdf-image'
+severities:
+  - score: '6.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/340208
+      reference_type:
+      reference_id:
+  - score: '6.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/438.json
+      reference_type:
+      reference_id: 438
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/340208
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/438.json
+    reference_type:
+    reference_id: 438

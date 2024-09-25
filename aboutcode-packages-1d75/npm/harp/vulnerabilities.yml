@@ -1,0 +1,8 @@
+- purl: pkg:npm/harp@0.29.0
+  affected_by_vulnerabilities:
+    - VCID-cjdu-9b8b-nqfz
+  fixing_vulnerabilities: []
+- purl: pkg:npm/harp@0.30.0
+  affected_by_vulnerabilities:
+    - VCID-bb2w-hgey-ubdm
+  fixing_vulnerabilities: []

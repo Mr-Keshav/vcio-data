@@ -1,0 +1,31 @@
+vulnerability_id: VCID-v98q-nsfx-vuh8
+aliases:
+  - CVE-2018-16489
+summary: |
+  Denial of Service
+  Prototype pollution attack in just-extend
+severities:
+  - score: '5.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/430291
+      reference_type:
+      reference_id:
+  - score: '5.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/492.json
+      reference_type:
+      reference_id: 492
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/430291
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/492.json
+    reference_type:
+    reference_id: 492

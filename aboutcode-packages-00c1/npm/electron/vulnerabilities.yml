@@ -1,0 +1,16 @@
+- purl: pkg:npm/electron@1.7.0
+  affected_by_vulnerabilities:
+    - VCID-5nqw-dhk4-x7ft
+  fixing_vulnerabilities: []
+- purl: pkg:npm/electron@1.8.0
+  affected_by_vulnerabilities:
+    - VCID-5nqw-dhk4-x7ft
+  fixing_vulnerabilities: []
+- purl: pkg:npm/electron@2.0.0
+  affected_by_vulnerabilities:
+    - VCID-5nqw-dhk4-x7ft
+  fixing_vulnerabilities: []
+- purl: pkg:npm/electron@3.0.0-beta.1
+  affected_by_vulnerabilities:
+    - VCID-5nqw-dhk4-x7ft
+  fixing_vulnerabilities: []

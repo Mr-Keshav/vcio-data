@@ -1,0 +1,31 @@
+vulnerability_id: VCID-qb9n-e89c-dkfm
+aliases:
+  - CVE-2018-3718
+summary: |
+  Information Exposure Through Directory Listing
+  [serve] Directory listing and File access even when they have been set to be ignored.
+severities:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/308721
+      reference_type:
+      reference_id:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/389.json
+      reference_type:
+      reference_id: 389
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/308721
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/389.json
+    reference_type:
+    reference_id: 389

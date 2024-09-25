@@ -1,0 +1,31 @@
+vulnerability_id: VCID-5atv-kkc3-v7g8
+aliases:
+  - CVE-2016-1000242
+summary: |
+  Denial of Service
+  Specifically crafted MQTT packets can crash the application, making a DoS attack feasible with very little bandwidth.
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/mqttjs/MQTT.js/blob/388a084d7803934b18b43c1146c817deaa1396b1/lib/parse.js#L230
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/140.json
+      reference_type:
+      reference_id: 140
+weaknesses: []
+references:
+  - url: https://github.com/mqttjs/MQTT.js/blob/388a084d7803934b18b43c1146c817deaa1396b1/lib/parse.js#L230
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/140.json
+    reference_type:
+    reference_id: 140

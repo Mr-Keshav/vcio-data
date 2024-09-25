@@ -1,0 +1,42 @@
+vulnerability_id: VCID-kx1h-juns-dqfg
+aliases:
+  - CVE-2018-3743
+summary: |
+  Open Redirect
+  [hekto] open redirect when target domain name is used as html filename on server
+severities:
+  - score: '2.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/herber/hekto/pull/3
+      reference_type:
+      reference_id:
+  - score: '2.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/320693
+      reference_type:
+      reference_id:
+  - score: '2.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/436.json
+      reference_type:
+      reference_id: 436
+weaknesses: []
+references:
+  - url: https://github.com/herber/hekto/pull/3
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/320693
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/436.json
+    reference_type:
+    reference_id: 436

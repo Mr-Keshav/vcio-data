@@ -1,0 +1,4 @@
+- pkg:npm/electron@1.7.0
+- pkg:npm/electron@1.8.0
+- pkg:npm/electron@2.0.0
+- pkg:npm/electron@3.0.0-beta.1

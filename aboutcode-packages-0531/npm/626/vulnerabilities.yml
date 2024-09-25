@@ -1,0 +1,4 @@
+- purl: pkg:npm/626@1.1.1
+  affected_by_vulnerabilities:
+    - VCID-2dvx-9wnh-eug7
+  fixing_vulnerabilities: []

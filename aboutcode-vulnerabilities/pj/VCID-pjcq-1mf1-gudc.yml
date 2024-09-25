@@ -1,0 +1,31 @@
+vulnerability_id: VCID-pjcq-1mf1-gudc
+aliases:
+  - CVE-2018-16462
+summary: |
+  Command Injection - Generic
+  [apex-publish-static-files] Command Injection on connectString
+severities:
+  - score: 10
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/405694
+      reference_type:
+      reference_id:
+  - score: 10
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/475.json
+      reference_type:
+      reference_id: 475
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/405694
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/475.json
+    reference_type:
+    reference_id: 475

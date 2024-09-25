@@ -1,0 +1,31 @@
+vulnerability_id: VCID-cq6k-qb2x-gue2
+aliases:
+  - CVE-2018-16486
+summary: |
+  Denial of Service
+  Prototype pollution attack (defaults-deep / constructor.prototype)
+severities:
+  - score: '6.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/380878
+      reference_type:
+      reference_id:
+  - score: '6.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/494.json
+      reference_type:
+      reference_id: 494
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/380878
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/494.json
+    reference_type:
+    reference_id: 494

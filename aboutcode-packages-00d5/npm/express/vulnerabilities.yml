@@ -1,0 +1,4 @@
+- purl: pkg:npm/express@4.0.0
+  affected_by_vulnerabilities:
+    - VCID-acqv-4nhd-dfa4
+  fixing_vulnerabilities: []

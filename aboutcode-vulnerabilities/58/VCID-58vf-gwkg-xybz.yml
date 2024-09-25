@@ -1,0 +1,31 @@
+vulnerability_id: VCID-58vf-gwkg-xybz
+aliases:
+  - CVE-2018-16490
+summary: |
+  Denial of Service
+  Prototype Pollution Vulnerability in mpath Package
+severities:
+  - score: '7.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/390860
+      reference_type:
+      reference_id:
+  - score: '7.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/491.json
+      reference_type:
+      reference_id: 491
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/390860
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/491.json
+    reference_type:
+    reference_id: 491

@@ -1,0 +1,31 @@
+vulnerability_id: VCID-qgc7-vkwe-6qej
+aliases:
+  - CVE-2018-3766
+summary: |
+  Path Traversal
+  [buttle] Path traversal in mid-buttle module allows to read any file in the server.
+severities:
+  - score: 10
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/358112
+      reference_type:
+      reference_id:
+  - score: 10
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/449.json
+      reference_type:
+      reference_id: 449
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/358112
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/449.json
+    reference_type:
+    reference_id: 449

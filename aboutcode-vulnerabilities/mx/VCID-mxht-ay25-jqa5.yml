@@ -1,0 +1,30 @@
+vulnerability_id: VCID-mxht-ay25-jqa5
+aliases:
+  - CVE-2018-3725
+summary: hekto suffers from Path Traversal vulnerability which allows to read content of arbitrary
+  files
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/311218
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/381.json
+      reference_type:
+      reference_id: 381
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/311218
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/381.json
+    reference_type:
+    reference_id: 381

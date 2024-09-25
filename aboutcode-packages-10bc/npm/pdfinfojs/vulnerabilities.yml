@@ -1,0 +1,8 @@
+- purl: pkg:npm/pdfinfojs@0.3.6
+  affected_by_vulnerabilities:
+    - VCID-97br-tzcb-8yfc
+  fixing_vulnerabilities: []
+- purl: pkg:npm/pdfinfojs@0.4.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-97br-tzcb-8yfc

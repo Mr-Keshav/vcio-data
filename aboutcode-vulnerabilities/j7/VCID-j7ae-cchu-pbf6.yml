@@ -1,0 +1,31 @@
+vulnerability_id: VCID-j7ae-cchu-pbf6
+aliases:
+  - CVE-2018-3770
+summary: |
+  Path Traversal
+  [markdown-pdf] Local file reading
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/360727
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/454.json
+      reference_type:
+      reference_id: 454
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/360727
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/454.json
+    reference_type:
+    reference_id: 454

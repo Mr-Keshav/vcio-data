@@ -1,0 +1,8 @@
+- purl: pkg:npm/passport-azure-ad@1.0.0
+  affected_by_vulnerabilities:
+    - VCID-jzrs-5mcc-17b9
+  fixing_vulnerabilities: []
+- purl: pkg:npm/passport-azure-ad@2.0.0
+  affected_by_vulnerabilities:
+    - VCID-jzrs-5mcc-17b9
+  fixing_vulnerabilities: []

@@ -1,0 +1,31 @@
+vulnerability_id: VCID-7uxh-6qqg-b3ap
+aliases:
+  - CVE-2015-4130
+summary: |
+  Command Injection
+  Due to the use of `child_process.exec` when executing git commands, ungit allows for commands to be injection from user input fields that end up in an executed git command.
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/FredrikNoren/ungit/issues/486
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/40.json
+      reference_type:
+      reference_id: 40
+weaknesses: []
+references:
+  - url: https://github.com/FredrikNoren/ungit/issues/486
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/40.json
+    reference_type:
+    reference_id: 40

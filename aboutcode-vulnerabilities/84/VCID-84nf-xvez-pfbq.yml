@@ -1,0 +1,31 @@
+vulnerability_id: VCID-84nf-xvez-pfbq
+aliases:
+  - CVE-2018-3767
+summary: |
+  Denial of Service
+  `memjs` allocates and stores buffers on typed input, resulting in DoS and uninitialized memory usage
+severities:
+  - score: 10
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/319809
+      reference_type:
+      reference_id:
+  - score: 10
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/448.json
+      reference_type:
+      reference_id: 448
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/319809
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/448.json
+    reference_type:
+    reference_id: 448

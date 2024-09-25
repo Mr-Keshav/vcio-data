@@ -1,0 +1,4 @@
+- purl: pkg:npm/statics-server@0.0.9
+  affected_by_vulnerabilities:
+    - VCID-94jv-hn74-tqff
+  fixing_vulnerabilities: []

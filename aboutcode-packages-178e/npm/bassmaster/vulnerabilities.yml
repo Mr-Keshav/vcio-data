@@ -1,0 +1,8 @@
+- purl: pkg:npm/bassmaster@1.5.1
+  affected_by_vulnerabilities:
+    - VCID-6qgp-rjbf-bbfq
+  fixing_vulnerabilities: []
+- purl: pkg:npm/bassmaster@1.5.2
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-6qgp-rjbf-bbfq

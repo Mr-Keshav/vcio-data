@@ -1,0 +1,4 @@
+- purl: pkg:npm/js-yaml@2.0.5
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-q41d-xfed-mybm

@@ -1,0 +1,52 @@
+vulnerability_id: VCID-78e7-q5qe-fff2
+aliases:
+  - CVE-2015-8861
+summary: |
+  Quoteless Attributes in Templates can lead to Content Injection
+  Not using quotes around your attributes in handlebar templates, could lead to content injection.
+
+  ### Example
+  Template:
+  ```<a href={{foo}}/>```
+
+  Input:
+  ```{ 'foo' : 'test.com onload=alert(1)'}```
+
+  Rendered result:
+  ```<a href=test.com onload=alert(1)/>```
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://blog.srcclr.com/handlebars_vulnerability_research_findings/
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/wycats/handlebars.js/pull/1083
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/61.json
+      reference_type:
+      reference_id: 61
+weaknesses: []
+references:
+  - url: https://blog.srcclr.com/handlebars_vulnerability_research_findings/
+    reference_type:
+    reference_id:
+  - url: https://github.com/wycats/handlebars.js/pull/1083
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/61.json
+    reference_type:
+    reference_id: 61

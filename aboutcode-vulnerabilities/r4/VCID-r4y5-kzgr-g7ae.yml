@@ -1,0 +1,31 @@
+vulnerability_id: VCID-r4y5-kzgr-g7ae
+aliases:
+  - CVE-2018-3745
+summary: |
+  Out-of-bounds Read
+  `atob` allocates uninitialized Buffers when number is passed in input on Node.js 4.x and below
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/321686
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/403.json
+      reference_type:
+      reference_id: 403
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/321686
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/403.json
+    reference_type:
+    reference_id: 403

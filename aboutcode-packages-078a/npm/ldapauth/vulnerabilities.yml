@@ -1,0 +1,4 @@
+- purl: pkg:npm/ldapauth@2.2.4
+  affected_by_vulnerabilities:
+    - VCID-ns2j-6m1d-yfcq
+  fixing_vulnerabilities: []

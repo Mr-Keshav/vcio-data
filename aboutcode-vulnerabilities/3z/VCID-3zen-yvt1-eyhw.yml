@@ -1,0 +1,33 @@
+vulnerability_id: VCID-3zen-yvt1-eyhw
+aliases:
+  - CVE-2016-7103
+summary: |
+  XSS in dialog closeText
+  jQuery-UI is a library for manipulating UI elements via jQuery.
+
+  Version 1.11.4 has a cross site scripting (XSS) vulnerability in the `closeText` parameter of the `dialog`  function.  If your application passes user input to this parameter, it may be vulnerable to XSS via this attack vector.
+severities:
+  - score: '7.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/jquery/jquery-ui/pull/1622
+      reference_type:
+      reference_id:
+  - score: '7.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/127.json
+      reference_type:
+      reference_id: 127
+weaknesses: []
+references:
+  - url: https://github.com/jquery/jquery-ui/pull/1622
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/127.json
+    reference_type:
+    reference_id: 127

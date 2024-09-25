@@ -1,0 +1,4 @@
+- purl: pkg:npm/datatables@1.10.8
+  affected_by_vulnerabilities:
+    - VCID-2yfp-j57w-zfex
+  fixing_vulnerabilities: []

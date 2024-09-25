@@ -1,0 +1,31 @@
+vulnerability_id: VCID-rf6n-yn4e-tuf1
+aliases:
+  - CVE-2014-4179
+summary: |
+  Denial of Service
+  Yar uses an encrypted cookie for session support, during the hapi request/reply flow if this cookie value is invalid (changed by the end-user), a request object variable is not set. In versions prior 2.2.0, the presence of this variable was not validated prior to use, resulting in an unhandled ReferenceError, which in most cases will crash the process.
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/spumko/yar/issues/34
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/44.json
+      reference_type:
+      reference_id: 44
+weaknesses: []
+references:
+  - url: https://github.com/spumko/yar/issues/34
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/44.json
+    reference_type:
+    reference_id: 44

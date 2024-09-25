@@ -1,0 +1,64 @@
+vulnerability_id: VCID-mgpy-tg9j-muhg
+aliases:
+  - CVE-2018-3717
+summary: |
+  Cross-site Scripting (XSS) - Stored
+  [simple-server] HTML with iframe element can be used as filename, which might lead to load and execute malicious JavaScript
+severities:
+  - score: '9.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/JacksonTian/anywhere/issues/33#issuecomment-366527448
+      reference_type:
+      reference_id:
+  - score: '9.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/309394
+      reference_type:
+      reference_id:
+  - score: '7.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/309641
+      reference_type:
+      reference_id:
+  - score: '9.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/379.json
+      reference_type:
+      reference_id: 379
+  - score: '7.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/390.json
+      reference_type:
+      reference_id: 390
+weaknesses: []
+references:
+  - url: https://github.com/JacksonTian/anywhere/issues/33#issuecomment-366527448
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/309394
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/309641
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/379.json
+    reference_type:
+    reference_id: 379
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/390.json
+    reference_type:
+    reference_id: 390

@@ -1,0 +1,30 @@
+vulnerability_id: VCID-ug1u-ymbz-tfak
+aliases:
+  - CVE-2018-3755
+summary: '[sexstatic] HTML injection in directory name(s) leads to Stored XSS when malicious
+  file is embed with <iframe> element used in directory name'
+severities:
+  - score: '5.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/328210
+      reference_type:
+      reference_id:
+  - score: '5.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/437.json
+      reference_type:
+      reference_id: 437
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/328210
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/437.json
+    reference_type:
+    reference_id: 437

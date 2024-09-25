@@ -1,0 +1,33 @@
+vulnerability_id: VCID-77ag-93qh-ryfe
+aliases:
+  - CVE-2016-2537
+summary: |
+  Regular Expression Denial of Service
+  It is possible to block the event loop when specially crafted user input is allowed into a validator using the `utc-millisec` format.
+
+  "The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time." [1]
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/76.json
+      reference_type:
+      reference_id: 76
+weaknesses: []
+references:
+  - url: https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/76.json
+    reference_type:
+    reference_id: 76

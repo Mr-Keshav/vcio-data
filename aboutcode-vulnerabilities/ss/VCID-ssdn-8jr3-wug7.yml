@@ -1,0 +1,42 @@
+vulnerability_id: VCID-ssdn-8jr3-wug7
+aliases:
+  - CVE-2015-8859
+summary: |
+  Root Path Disclosure
+  The send module < 0.11.1 discloses the root path.
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/pillarjs/send/pull/70
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/56.json
+      reference_type:
+      reference_id: 56
+weaknesses: []
+references:
+  - url: https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20
+    reference_type:
+    reference_id:
+  - url: https://github.com/pillarjs/send/pull/70
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/56.json
+    reference_type:
+    reference_id: 56

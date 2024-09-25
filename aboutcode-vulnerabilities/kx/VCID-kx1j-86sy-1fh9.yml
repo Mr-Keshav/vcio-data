@@ -1,0 +1,30 @@
+vulnerability_id: VCID-kx1j-86sy-1fh9
+aliases:
+  - CVE-2013-7381
+summary: |
+  Potential Command Injection
+  Untrusted input passed in the call to libnotify.notify could result in execution of shell commands. Callers may be unaware of this.
+
+  ### Example
+  ```
+  var libnotify = require('libnotify')
+  libnotify.notify('UNTRUSTED INPUT', { title: \"\" }, function () {
+      console.log(arguments);
+  })
+  ```
+
+  Special thanks to Neal Poole for submitting the pull request to fix this issue.
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/20.json
+      reference_type:
+      reference_id: 20
+weaknesses: []
+references:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/20.json
+    reference_type:
+    reference_id: 20

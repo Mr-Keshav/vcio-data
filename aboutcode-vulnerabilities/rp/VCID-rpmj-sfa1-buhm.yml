@@ -1,0 +1,31 @@
+vulnerability_id: VCID-rpmj-sfa1-buhm
+aliases:
+  - CVE-2018-3758
+summary: |
+  Path Traversal
+  Unrestricted file upload (RCE)
+severities:
+  - score: '9.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/343726
+      reference_type:
+      reference_id:
+  - score: '9.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/441.json
+      reference_type:
+      reference_id: 441
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/343726
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/441.json
+    reference_type:
+    reference_id: 441

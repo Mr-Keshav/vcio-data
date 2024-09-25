@@ -1,0 +1,29 @@
+vulnerability_id: VCID-rbed-11t7-gbbg
+aliases:
+  - CVE-2018-3730
+summary: '[mcstatic] Path Traversal allows to read content of arbitrary files'
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/312907
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/413.json
+      reference_type:
+      reference_id: 413
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/312907
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/413.json
+    reference_type:
+    reference_id: 413

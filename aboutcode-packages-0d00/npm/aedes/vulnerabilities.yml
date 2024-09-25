@@ -1,0 +1,8 @@
+- purl: pkg:npm/aedes@0.35.0
+  affected_by_vulnerabilities:
+    - VCID-q8h8-j2b9-tkap
+  fixing_vulnerabilities: []
+- purl: pkg:npm/aedes@0.35.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-q8h8-j2b9-tkap

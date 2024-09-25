@@ -1,0 +1,4 @@
+- purl: pkg:npm/ms@0.7.0
+  affected_by_vulnerabilities:
+    - VCID-9rr6-kzum-qub5
+  fixing_vulnerabilities: []
