@@ -1,0 +1,31 @@
+vulnerability_id: VCID-c2xq-zuqp-93ez
+aliases:
+  - CVE-2018-16460
+summary: |
+  Command Injection - Generic
+  Command Injection is ps Package
+severities:
+  - score: '6.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/390848
+      reference_type:
+      reference_id:
+  - score: '6.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/470.json
+      reference_type:
+      reference_id: 470
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/390848
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/470.json
+    reference_type:
+    reference_id: 470

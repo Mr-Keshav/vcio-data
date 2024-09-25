@@ -1,0 +1,8 @@
+- purl: pkg:npm/dojo@1.0.0
+  affected_by_vulnerabilities:
+    - VCID-axs7-u8zj-q3fx
+  fixing_vulnerabilities: []
+- purl: pkg:npm/dojo@1.1.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-axs7-u8zj-q3fx

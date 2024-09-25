@@ -1,0 +1,33 @@
+vulnerability_id: VCID-axs7-u8zj-q3fx
+aliases:
+  - CVE-2008-6681
+summary: |
+  Cross Site Scripting
+  dojo is the core module for the Dojo Toolkit. The dojo package covers a wide range of functionality like AJAX, DOM manipulation, class-type programming, events, promises, data stores, drag-and-drop and internationalization libraries.
+
+  There is a bug in the `dijit.Editor` and `textarea` where input, even sanitized, executes javascript. This is because the `<textarea>` tag only sees the final, unsanitized, user input.
+severities:
+  - score: '4.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://bugs.dojotoolkit.org/ticket/2140
+      reference_type:
+      reference_id:
+  - score: '4.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/107.json
+      reference_type:
+      reference_id: 107
+weaknesses: []
+references:
+  - url: https://bugs.dojotoolkit.org/ticket/2140
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/107.json
+    reference_type:
+    reference_id: 107

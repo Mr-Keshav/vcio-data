@@ -1,0 +1,10 @@
+- purl: pkg:npm/connect@2.8.0
+  affected_by_vulnerabilities:
+    - VCID-5ekj-1yms-v3h5
+    - VCID-6jsm-sycb-tbbv
+  fixing_vulnerabilities: []
+- purl: pkg:npm/connect@2.8.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-5ekj-1yms-v3h5
+    - VCID-6jsm-sycb-tbbv

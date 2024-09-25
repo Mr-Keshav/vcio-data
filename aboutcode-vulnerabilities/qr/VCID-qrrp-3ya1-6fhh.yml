@@ -1,0 +1,33 @@
+vulnerability_id: VCID-qrrp-3ya1-6fhh
+aliases:
+  - CVE-2016-10707
+summary: |
+  Exceeding Stack Call Limit DoS
+  jQuery is a DOM manipulation javascript library.
+
+  In v2.2.4 and previous, a lowercasing logic was used on the attribute names and was removed in v3.0.0. Because of this, boolean attributes whose names were not all lowercase cause infinite recursion, and will exceed the stack call limit.
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/jquery/jquery/issues/3133)
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/330.json
+      reference_type:
+      reference_id: 330
+weaknesses: []
+references:
+  - url: https://github.com/jquery/jquery/issues/3133)
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/330.json
+    reference_type:
+    reference_id: 330

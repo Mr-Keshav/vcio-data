@@ -1,0 +1,31 @@
+vulnerability_id: VCID-6jzq-cw8s-73bg
+aliases:
+  - CVE-2018-1000620
+summary: |
+  Insufficient Entropy
+  [cryptiles] randomDigits() method generates digits that lack a perfect distribution over enough attempts
+severities:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/hapijs/cryptiles/issues/34
+      reference_type:
+      reference_id:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/476.json
+      reference_type:
+      reference_id: 476
+weaknesses: []
+references:
+  - url: https://github.com/hapijs/cryptiles/issues/34
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/476.json
+    reference_type:
+    reference_id: 476

@@ -1,0 +1,4 @@
+- purl: pkg:npm/mpath@0.5.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-58vf-gwkg-xybz

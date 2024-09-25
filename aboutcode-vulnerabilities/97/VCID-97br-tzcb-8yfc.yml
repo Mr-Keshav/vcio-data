@@ -1,0 +1,31 @@
+vulnerability_id: VCID-97br-tzcb-8yfc
+aliases:
+  - CVE-2018-3746
+summary: |
+  pdfinfojs command injection
+  The pdfinfojs NPM module has a command injection vulnerability that allows an attacker execute arbitrary commands on the victim's machine.
+severities:
+  - score: '7.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/330957
+      reference_type:
+      reference_id:
+  - score: '7.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/412.json
+      reference_type:
+      reference_id: 412
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/330957
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/412.json
+    reference_type:
+    reference_id: 412

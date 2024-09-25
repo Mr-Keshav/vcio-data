@@ -1,0 +1,4 @@
+- purl: pkg:npm/general-file-server@1.1.8
+  affected_by_vulnerabilities:
+    - VCID-9jnr-d2vt-rqbt
+  fixing_vulnerabilities: []

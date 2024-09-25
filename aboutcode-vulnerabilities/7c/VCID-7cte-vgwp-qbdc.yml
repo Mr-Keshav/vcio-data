@@ -1,0 +1,31 @@
+vulnerability_id: VCID-7cte-vgwp-qbdc
+aliases:
+  - CVE-2015-8860
+summary: |
+  Symlink Arbitrary File Overwrite
+  The `tar` module earlier than version 2.0.0 allow for archives to contain symbolic links that will overwrite targets outside the expected path for extraction.
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/npm/npm/releases/tag/v2.7.5
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/57.json
+      reference_type:
+      reference_id: 57
+weaknesses: []
+references:
+  - url: https://github.com/npm/npm/releases/tag/v2.7.5
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/57.json
+    reference_type:
+    reference_id: 57

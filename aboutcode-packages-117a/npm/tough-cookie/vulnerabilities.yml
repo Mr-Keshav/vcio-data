@@ -1,0 +1,12 @@
+- purl: pkg:npm/tough-cookie@0.9.7
+  affected_by_vulnerabilities:
+    - VCID-t5gd-x7jg-53hx
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tough-cookie@2.2.2
+  affected_by_vulnerabilities:
+    - VCID-t5gd-x7jg-53hx
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tough-cookie@2.3.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-t5gd-x7jg-53hx

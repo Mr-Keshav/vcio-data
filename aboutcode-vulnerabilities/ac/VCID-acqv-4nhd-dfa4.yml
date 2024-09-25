@@ -1,0 +1,20 @@
+vulnerability_id: VCID-acqv-4nhd-dfa4
+aliases:
+  - CVE-2014-6393
+summary: |
+  No Charset in Content-Type Header
+  Vulnerable versions of express do not specify a charset field in the content-type header while displaying 400 level response messages. The lack of enforcing user's browser to set correct charset, could be leveraged by an attacker to perform a cross-site scripting attack, using non-standard encodings, like UTF-7.
+severities:
+  - score: '5.4'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/8.json
+      reference_type:
+      reference_id: 8
+weaknesses: []
+references:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/8.json
+    reference_type:
+    reference_id: 8

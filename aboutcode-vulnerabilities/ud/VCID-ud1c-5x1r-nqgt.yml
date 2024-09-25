@@ -1,0 +1,31 @@
+vulnerability_id: VCID-ud1c-5x1r-nqgt
+aliases:
+  - CVE-2019-5415
+summary: |
+  Information Exposure Through Directory Listing
+  [serve] Directory listing and File access even when they have been set to be ignored (using dot-slash)
+severities:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/330724
+      reference_type:
+      reference_id:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/515.json
+      reference_type:
+      reference_id: 515
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/330724
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/515.json
+    reference_type:
+    reference_id: 515

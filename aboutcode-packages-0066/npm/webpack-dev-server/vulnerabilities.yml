@@ -1,0 +1,8 @@
+- purl: pkg:npm/webpack-dev-server@3.1.10
+  affected_by_vulnerabilities:
+    - VCID-jycs-tq3f-mue3
+  fixing_vulnerabilities: []
+- purl: pkg:npm/webpack-dev-server@3.1.11
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-jycs-tq3f-mue3

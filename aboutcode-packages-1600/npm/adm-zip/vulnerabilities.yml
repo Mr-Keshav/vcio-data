@@ -1,0 +1,4 @@
+- purl: pkg:npm/adm-zip@0.4.9
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-rd4a-7ts4-dyda

@@ -1,0 +1,30 @@
+- purl: pkg:npm/swagger-ui@2.1.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-8me6-s7p7-gyf6
+- purl: pkg:npm/swagger-ui@2.1.0-M1
+  affected_by_vulnerabilities:
+    - VCID-8me6-s7p7-gyf6
+  fixing_vulnerabilities: []
+- purl: pkg:npm/swagger-ui@2.1.0-M2
+  affected_by_vulnerabilities:
+    - VCID-8me6-s7p7-gyf6
+  fixing_vulnerabilities: []
+- purl: pkg:npm/swagger-ui@2.1.4
+  affected_by_vulnerabilities:
+    - VCID-ja52-vtph-7khw
+    - VCID-mv1e-m4vb-muh4
+  fixing_vulnerabilities: []
+- purl: pkg:npm/swagger-ui@2.1.5
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-ja52-vtph-7khw
+    - VCID-mv1e-m4vb-muh4
+- purl: pkg:npm/swagger-ui@2.2.0
+  affected_by_vulnerabilities:
+    - VCID-cfk9-1f96-43bg
+  fixing_vulnerabilities: []
+- purl: pkg:npm/swagger-ui@2.2.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-cfk9-1f96-43bg

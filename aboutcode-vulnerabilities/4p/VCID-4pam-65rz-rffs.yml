@@ -1,0 +1,31 @@
+vulnerability_id: VCID-4pam-65rz-rffs
+aliases:
+  - CVE-2019-5428
+summary: |
+  Modification of Assumed-Immutable Data (MAID)
+  Prototype pollution attack through jQuery $.extend
+severities:
+  - score: '5.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/454365
+      reference_type:
+      reference_id:
+  - score: '5.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/496.json
+      reference_type:
+      reference_id: 496
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/454365
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/496.json
+    reference_type:
+    reference_id: 496

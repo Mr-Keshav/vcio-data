@@ -1,0 +1,8 @@
+- purl: pkg:npm/sanitize-html@1.4.2
+  affected_by_vulnerabilities:
+    - VCID-dd4k-kcnk-qkhv
+  fixing_vulnerabilities: []
+- purl: pkg:npm/sanitize-html@1.4.3
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-dd4k-kcnk-qkhv

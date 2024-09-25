@@ -1,0 +1,30 @@
+vulnerability_id: VCID-9jnr-d2vt-rqbt
+aliases:
+  - CVE-2018-3724
+summary: '[general-file-server] Path Traversal vulnerability allows to read content on arbitrary
+  file on the server'
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/310943
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/387.json
+      reference_type:
+      reference_id: 387
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/310943
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/387.json
+    reference_type:
+    reference_id: 387

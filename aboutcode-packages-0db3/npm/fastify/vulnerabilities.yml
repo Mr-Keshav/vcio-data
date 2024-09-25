@@ -1,0 +1,8 @@
+- purl: pkg:npm/fastify@0.37.0
+  affected_by_vulnerabilities:
+    - VCID-trpu-dghg-3yh1
+  fixing_vulnerabilities: []
+- purl: pkg:npm/fastify@0.38.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-trpu-dghg-3yh1

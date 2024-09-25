@@ -1,0 +1,4 @@
+- purl: pkg:npm/node-srv@2.1.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-54x5-921s-3ygv

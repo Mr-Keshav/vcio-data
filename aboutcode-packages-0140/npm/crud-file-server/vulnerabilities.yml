@@ -1,0 +1,8 @@
+- purl: pkg:npm/crud-file-server@0.7.0
+  affected_by_vulnerabilities:
+    - VCID-w9gz-t7pa-vyfa
+  fixing_vulnerabilities: []
+- purl: pkg:npm/crud-file-server@0.8.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-w9gz-t7pa-vyfa

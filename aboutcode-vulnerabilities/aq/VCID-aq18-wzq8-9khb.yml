@@ -1,0 +1,52 @@
+vulnerability_id: VCID-aq18-wzq8-9khb
+aliases:
+  - CVE-2014-8882
+summary: The validator module, versions < 3.22.1 are vulnerable to Regular Expression Denial
+  of Service ([ReDoS](http://en.wikipedia.org/wiki/ReDoS)) in the isURL method.
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: http://en.wikipedia.org/wiki/ReDoS
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: http://lab.cs.ttu.ee/dl93)
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/chriso/validator.js/issues/152#issuecomment-48107184
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/42.json
+      reference_type:
+      reference_id: 42
+weaknesses: []
+references:
+  - url: http://en.wikipedia.org/wiki/ReDoS
+    reference_type:
+    reference_id:
+  - url: http://lab.cs.ttu.ee/dl93)
+    reference_type:
+    reference_id:
+  - url: https://github.com/chriso/validator.js/issues/152#issuecomment-48107184
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/42.json
+    reference_type:
+    reference_id: 42

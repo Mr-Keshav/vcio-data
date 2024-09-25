@@ -1,0 +1,42 @@
+vulnerability_id: VCID-rq6f-ccyt-nfgm
+aliases:
+  - CVE-2018-3732
+summary: |
+  Path Traversal
+  resolve-path relative path resolving suffers from a lack of file path sanitization for windows based paths
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/pillarjs/resolve-path/commit/fe5b8052cafd35fcdafe9210e100e9050b37d2a0
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/315760
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/376.json
+      reference_type:
+      reference_id: 376
+weaknesses: []
+references:
+  - url: https://github.com/pillarjs/resolve-path/commit/fe5b8052cafd35fcdafe9210e100e9050b37d2a0
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/315760
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/376.json
+    reference_type:
+    reference_id: 376

@@ -1,0 +1,8 @@
+- purl: pkg:npm/atob@2.0.3
+  affected_by_vulnerabilities:
+    - VCID-r4y5-kzgr-g7ae
+  fixing_vulnerabilities: []
+- purl: pkg:npm/atob@2.1.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-r4y5-kzgr-g7ae

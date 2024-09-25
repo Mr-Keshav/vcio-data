@@ -1,0 +1,31 @@
+vulnerability_id: VCID-ja52-vtph-7khw
+aliases:
+  - CVE-2016-1000233
+summary: |
+  XSS via Content-type header
+  By using a malicious server which returns script as the value of the Content-Type header, it is possible to execute arbitrary code using the demonstration capabilities of Swagger-UI.
+severities:
+  - score: '7.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/swagger-api/swagger-ui/issues/1863
+      reference_type:
+      reference_id:
+  - score: '7.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/131.json
+      reference_type:
+      reference_id: 131
+weaknesses: []
+references:
+  - url: https://github.com/swagger-api/swagger-ui/issues/1863
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/131.json
+    reference_type:
+    reference_id: 131

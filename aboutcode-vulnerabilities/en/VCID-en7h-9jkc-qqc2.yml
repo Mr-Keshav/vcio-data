@@ -1,0 +1,31 @@
+vulnerability_id: VCID-en7h-9jkc-qqc2
+aliases:
+  - CVE-2018-16478
+summary: |
+  Path Traversal
+  List any file in the folder by using path traversal
+severities:
+  - score: '6.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/403703
+      reference_type:
+      reference_id:
+  - score: '6.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/481.json
+      reference_type:
+      reference_id: 481
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/403703
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/481.json
+    reference_type:
+    reference_id: 481

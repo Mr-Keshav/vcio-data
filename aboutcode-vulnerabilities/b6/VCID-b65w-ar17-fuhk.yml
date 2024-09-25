@@ -1,0 +1,31 @@
+vulnerability_id: VCID-b65w-ar17-fuhk
+aliases:
+  - CVE-2019-5432
+summary: |
+  Buffer Over-read
+  A specifically malformed MQTT Subscribe packet crashes MQTT Brokers using the mqtt-packet module for decoding
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/541354
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/500.json
+      reference_type:
+      reference_id: 500
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/541354
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/500.json
+    reference_type:
+    reference_id: 500

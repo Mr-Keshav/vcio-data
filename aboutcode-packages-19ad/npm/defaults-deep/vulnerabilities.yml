@@ -1,0 +1,5 @@
+- purl: pkg:npm/defaults-deep@0.2.4
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+  fixing_vulnerabilities:
+    - VCID-ugkk-e9c1-3ya7

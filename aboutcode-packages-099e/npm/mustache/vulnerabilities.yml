@@ -1,0 +1,4 @@
+- purl: pkg:npm/mustache@2.2.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-qmuc-cey2-rfds

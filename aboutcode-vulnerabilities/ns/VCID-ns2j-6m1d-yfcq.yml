@@ -1,0 +1,64 @@
+vulnerability_id: VCID-ns2j-6m1d-yfcq
+aliases:
+  - CVE-2015-7294
+summary: |
+  LDAP Injection
+  ldapauth versions <= 2.2.4 are vulnerable to ldap injection through the username parameter.
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/vesse/node-ldapauth-fork/issues/21
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: http://www.openwall.com/lists/oss-security/2015/09/18/4
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/18.json
+      reference_type:
+      reference_id: 18
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/19.json
+      reference_type:
+      reference_id: '19'
+weaknesses: []
+references:
+  - url: https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4
+    reference_type:
+    reference_id:
+  - url: https://github.com/vesse/node-ldapauth-fork/issues/21
+    reference_type:
+    reference_id:
+  - url: http://www.openwall.com/lists/oss-security/2015/09/18/4
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/18.json
+    reference_type:
+    reference_id: 18
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/19.json
+    reference_type:
+    reference_id: '19'

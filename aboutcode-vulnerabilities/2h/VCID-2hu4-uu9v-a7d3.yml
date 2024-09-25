@@ -1,0 +1,40 @@
+vulnerability_id: VCID-2hu4-uu9v-a7d3
+aliases:
+  - CVE-2018-3729
+summary: localhost-now Path Traversal allows to read content of arbitrary file
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/DCKT/localhost-now/commit/30b004c7f145d677df8800a106c2edc982313995#diff-b9cfc7f2cdf78a7f4b91a753d10865a2
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/312889
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/377.json
+      reference_type:
+      reference_id: 377
+weaknesses: []
+references:
+  - url: https://github.com/DCKT/localhost-now/commit/30b004c7f145d677df8800a106c2edc982313995#diff-b9cfc7f2cdf78a7f4b91a753d10865a2
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/312889
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/377.json
+    reference_type:
+    reference_id: 377

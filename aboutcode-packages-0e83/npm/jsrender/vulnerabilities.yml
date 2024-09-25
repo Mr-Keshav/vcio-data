@@ -1,0 +1,8 @@
+- purl: pkg:npm/jsrender@0.9.73
+  affected_by_vulnerabilities:
+    - VCID-shap-qzww-2bgm
+  fixing_vulnerabilities: []
+- purl: pkg:npm/jsrender@0.9.74
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-shap-qzww-2bgm

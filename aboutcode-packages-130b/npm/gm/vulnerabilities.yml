@@ -1,0 +1,8 @@
+- purl: pkg:npm/gm@1.20.0
+  affected_by_vulnerabilities:
+    - VCID-ms3e-7pu4-4kge
+  fixing_vulnerabilities: []
+- purl: pkg:npm/gm@1.21.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-ms3e-7pu4-4kge

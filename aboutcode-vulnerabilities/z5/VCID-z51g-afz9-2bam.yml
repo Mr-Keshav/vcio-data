@@ -1,0 +1,42 @@
+vulnerability_id: VCID-z51g-afz9-2bam
+aliases:
+  - CVE-2018-3731
+summary: |
+  Directory Traversal
+  public static hosting module suffers from a lack of file path sanitization which causes that any file on the server might be read by malicious user.
+severities:
+  - score: '8.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/tnantoka/public/commit/eae8ad8017b260f8667ded5e12801bd72b877af2
+      reference_type:
+      reference_id:
+  - score: '8.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/312918
+      reference_type:
+      reference_id:
+  - score: '8.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/373.json
+      reference_type:
+      reference_id: 373
+weaknesses: []
+references:
+  - url: https://github.com/tnantoka/public/commit/eae8ad8017b260f8667ded5e12801bd72b877af2
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/312918
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/373.json
+    reference_type:
+    reference_id: 373

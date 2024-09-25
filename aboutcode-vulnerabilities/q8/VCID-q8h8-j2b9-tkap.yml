@@ -1,0 +1,42 @@
+vulnerability_id: VCID-q8h8-j2b9-tkap
+aliases:
+  - CVE-2018-3778
+summary: |
+  Improper Authorization
+  Aedes does not respect its own authorization rules when a client sets a Last Will
+severities:
+  - score: '5.0'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/mcollina/aedes/issues/211
+      reference_type:
+      reference_id:
+  - score: '5.0'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/mcollina/aedes/issues/212
+      reference_type:
+      reference_id:
+  - score: '5.0'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/457.json
+      reference_type:
+      reference_id: 457
+weaknesses: []
+references:
+  - url: https://github.com/mcollina/aedes/issues/211
+    reference_type:
+    reference_id:
+  - url: https://github.com/mcollina/aedes/issues/212
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/457.json
+    reference_type:
+    reference_id: 457

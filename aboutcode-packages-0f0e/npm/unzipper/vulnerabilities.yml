@@ -1,0 +1,4 @@
+- purl: pkg:npm/unzipper@0.8.13
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-u88n-mpjp-pfbt

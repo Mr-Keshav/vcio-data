@@ -1,0 +1,31 @@
+vulnerability_id: VCID-bb2w-hgey-ubdm
+aliases:
+  - CVE-2019-5438
+summary: |
+  Path Traversal
+  [harp] Path traversal using symlink
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/530289
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/499.json
+      reference_type:
+      reference_id: 499
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/530289
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/499.json
+    reference_type:
+    reference_id: 499

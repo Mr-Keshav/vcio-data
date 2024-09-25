@@ -1,0 +1,4 @@
+- purl: pkg:npm/metascraper@3.9.2
+  affected_by_vulnerabilities:
+    - VCID-gzqf-1p85-kbgu
+  fixing_vulnerabilities: []

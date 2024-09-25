@@ -1,0 +1,33 @@
+vulnerability_id: VCID-jk8q-bn1k-7feh
+aliases:
+  - CVE-2013-3364
+summary: |
+  Unauthenticated Remote Command Injection
+  ep_imageconvert is a plugin for [Etherpad Lite](https://github.com/ether/etherpad-lite). ep_imageconvert <= 0.0.2 is vulnerable to remote command injection.
+
+  Authentication is not required for remote exploitation.
+severities:
+  - score: '8.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/redhog/ep_imageconvert/pull/5
+      reference_type:
+      reference_id:
+  - score: '8.2'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/7.json
+      reference_type:
+      reference_id: 7
+weaknesses: []
+references:
+  - url: https://github.com/redhog/ep_imageconvert/pull/5
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/7.json
+    reference_type:
+    reference_id: 7

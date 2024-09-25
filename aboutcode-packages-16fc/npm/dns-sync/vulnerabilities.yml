@@ -1,0 +1,4 @@
+- purl: pkg:npm/dns-sync@0.1.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-ujm2-k3rd-83bb

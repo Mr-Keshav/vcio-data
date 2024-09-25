@@ -1,0 +1,4 @@
+- purl: pkg:npm/mcstatic@0.0.20
+  affected_by_vulnerabilities:
+    - VCID-rbed-11t7-gbbg
+  fixing_vulnerabilities: []

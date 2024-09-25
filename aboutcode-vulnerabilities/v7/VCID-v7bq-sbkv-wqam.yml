@@ -1,0 +1,42 @@
+vulnerability_id: VCID-v7bq-sbkv-wqam
+aliases:
+  - CVE-2013-6393
+summary: |
+  Heap Based Buffer Overflow
+  LibYAML, the library that libyaml provides bindings for is vulnerable to a heap-based buffer overflow when parsing YAML tags.
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: http://cve.mitre.org/cgi-bin/cvename.cgi?name=2013-6393)
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://bitbucket.org/xi/libyaml/pull-request/1/fix-cve-2013-6393/diff
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/21.json
+      reference_type:
+      reference_id: 21
+weaknesses: []
+references:
+  - url: http://cve.mitre.org/cgi-bin/cvename.cgi?name=2013-6393)
+    reference_type:
+    reference_id:
+  - url: https://bitbucket.org/xi/libyaml/pull-request/1/fix-cve-2013-6393/diff
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/21.json
+    reference_type:
+    reference_id: 21

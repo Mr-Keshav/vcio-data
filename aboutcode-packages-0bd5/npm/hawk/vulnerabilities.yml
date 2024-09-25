@@ -1,0 +1,4 @@
+- purl: pkg:npm/hawk@4.0.0
+  affected_by_vulnerabilities:
+    - VCID-b6ws-mczn-d3hj
+  fixing_vulnerabilities: []

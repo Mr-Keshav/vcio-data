@@ -1,0 +1,4 @@
+- purl: pkg:npm/url-parse@1.4.3
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-h8q9-e95s-hqa9

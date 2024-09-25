@@ -1,0 +1,21 @@
+- purl: pkg:npm/serve@6.4.8
+  affected_by_vulnerabilities:
+    - VCID-c5yr-r2uc-53dw
+  fixing_vulnerabilities: []
+- purl: pkg:npm/serve@6.4.9
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-c5yr-r2uc-53dw
+- purl: pkg:npm/serve@6.5.2
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-qb9n-e89c-dkfm
+- purl: pkg:npm/serve@6.5.3
+  affected_by_vulnerabilities:
+    - VCID-ud1c-5x1r-nqgt
+    - VCID-xh3j-k8sp-8qdm
+  fixing_vulnerabilities: []
+- purl: pkg:npm/serve@7.0.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-xh3j-k8sp-8qdm

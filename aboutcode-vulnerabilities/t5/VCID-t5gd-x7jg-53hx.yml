@@ -1,0 +1,22 @@
+vulnerability_id: VCID-t5gd-x7jg-53hx
+aliases:
+  - CVE-2016-1000232
+summary: |
+  ReDoS via long string of semicolons
+  Tough-cookie is a cookie parsing and management library.
+
+  Versions 0.9.7 through 2.2.2 contain a vulnerable regular expression that, under certain conditions involving long strings of semicolons in the "Set-Cookie" header, causes the event loop to block for excessive amounts of time.
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/130.json
+      reference_type:
+      reference_id: 130
+weaknesses: []
+references:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/130.json
+    reference_type:
+    reference_id: 130

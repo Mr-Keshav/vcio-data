@@ -1,0 +1,4 @@
+- purl: pkg:npm/hubot-scripts@2.4.3
+  affected_by_vulnerabilities:
+    - VCID-u5kr-t85m-h7fw
+  fixing_vulnerabilities: []

@@ -1,0 +1,4 @@
+- purl: pkg:npm/syntax-error@1.1.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-6375-ddce-47a8

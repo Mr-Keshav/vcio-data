@@ -1,0 +1,42 @@
+vulnerability_id: VCID-347z-r6un-f7hq
+aliases:
+  - CVE-2018-3738
+summary: |
+  Denial of Service
+  `protobufjs` is vulnerable to ReDoS when parsing crafted invalid *.proto files
+severities:
+  - score: '4.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/dcodeIO/protobuf.js/blob/6.8.5/src/parse.js#L27
+      reference_type:
+      reference_id:
+  - score: '4.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/319576
+      reference_type:
+      reference_id:
+  - score: '4.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/400.json
+      reference_type:
+      reference_id: 400
+weaknesses: []
+references:
+  - url: https://github.com/dcodeIO/protobuf.js/blob/6.8.5/src/parse.js#L27
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/319576
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/400.json
+    reference_type:
+    reference_id: 400

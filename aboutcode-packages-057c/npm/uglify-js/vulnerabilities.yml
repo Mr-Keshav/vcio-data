@@ -1,0 +1,12 @@
+- purl: pkg:npm/uglify-js@2.4.23
+  affected_by_vulnerabilities:
+    - VCID-y1xw-rx1w-k3gm
+  fixing_vulnerabilities: []
+- purl: pkg:npm/uglify-js@2.4.24
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-y1xw-rx1w-k3gm
+- purl: pkg:npm/uglify-js@2.6.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-8j6t-yfak-pbck

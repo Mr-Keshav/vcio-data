@@ -1,0 +1,4 @@
+- purl: pkg:npm/serve-index@1.6.3
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-gane-f356-7ud5

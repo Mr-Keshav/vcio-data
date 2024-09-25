@@ -1,0 +1,31 @@
+vulnerability_id: VCID-94jv-hn74-tqff
+aliases:
+  - CVE-2018-3771
+summary: |
+  Cross-site Scripting (XSS) - Generic
+  [statics-server] XSS via injected iframe in file name when statics-server displays directory index in the browser
+severities:
+  - score: '6.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/355458
+      reference_type:
+      reference_id:
+  - score: '6.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/451.json
+      reference_type:
+      reference_id: 451
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/355458
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/451.json
+    reference_type:
+    reference_id: 451

@@ -1,0 +1,8 @@
+- purl: pkg:npm/apex-publish-static-files@2.0.0
+  affected_by_vulnerabilities:
+    - VCID-pjcq-1mf1-gudc
+  fixing_vulnerabilities: []
+- purl: pkg:npm/apex-publish-static-files@2.0.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-pjcq-1mf1-gudc

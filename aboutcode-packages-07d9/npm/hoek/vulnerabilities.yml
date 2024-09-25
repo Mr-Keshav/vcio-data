@@ -1,0 +1,4 @@
+- purl: pkg:npm/hoek@5.0.0
+  affected_by_vulnerabilities:
+    - VCID-excb-r9sh-fyh7
+  fixing_vulnerabilities: []

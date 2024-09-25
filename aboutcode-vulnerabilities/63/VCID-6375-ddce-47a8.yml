@@ -1,0 +1,37 @@
+vulnerability_id: VCID-6375-ddce-47a8
+aliases:
+  - CVE-2014-7192
+summary: |
+  Potential for Script Injection
+  The below overview of the issue is quoted from https://github.com/substack/node-browserify/blob/master/changelog.markdown#421
+
+  Make sure your installation of browserify is using syntax-error@1.1.1 or later. there was a security vulnerability where a malicious file could execute code when browserified.
+
+  The vulnerability involves breaking out of Function(), which was used to check syntax for more informative errors. In node 0.10, Function() seems to be implemented in terms of eval(), so malicious code can execute even if the function returned by Function() was never called. node 0.11 does not appear to be vulnerable.
+
+  Thanks to Cal Leeming [cal@iops.io] for discovering and disclosing this bug!
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/substack/node-browserify/blob/master/changelog.markdown#421)
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/37.json
+      reference_type:
+      reference_id: 37
+weaknesses: []
+references:
+  - url: https://github.com/substack/node-browserify/blob/master/changelog.markdown#421)
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/37.json
+    reference_type:
+    reference_id: 37

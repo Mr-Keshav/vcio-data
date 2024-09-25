@@ -1,0 +1,42 @@
+vulnerability_id: VCID-ey8r-fsw7-5yfv
+aliases:
+  - CVE-2018-3786
+summary: |
+  Command Injection - Generic
+  [egg-scripts] Command injection
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/eggjs/egg-scripts/pull/26
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/388936
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/463.json
+      reference_type:
+      reference_id: 463
+weaknesses: []
+references:
+  - url: https://github.com/eggjs/egg-scripts/pull/26
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/388936
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/463.json
+    reference_type:
+    reference_id: 463

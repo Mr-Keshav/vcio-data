@@ -1,0 +1,8 @@
+- purl: pkg:npm/html-pages@2.0.9
+  affected_by_vulnerabilities:
+    - VCID-1gru-7cy3-jqby
+  fixing_vulnerabilities: []
+- purl: pkg:npm/html-pages@2.1.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-1gru-7cy3-jqby

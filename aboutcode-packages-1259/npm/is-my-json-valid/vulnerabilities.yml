@@ -1,0 +1,8 @@
+- purl: pkg:npm/is-my-json-valid@2.12.3
+  affected_by_vulnerabilities:
+    - VCID-77ag-93qh-ryfe
+  fixing_vulnerabilities: []
+- purl: pkg:npm/is-my-json-valid@2.12.4
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-77ag-93qh-ryfe

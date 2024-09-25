@@ -1,0 +1,4 @@
+- purl: pkg:npm/serve-static@1.7.0
+  affected_by_vulnerabilities:
+    - VCID-vpy5-u9k9-tqcb
+  fixing_vulnerabilities: []

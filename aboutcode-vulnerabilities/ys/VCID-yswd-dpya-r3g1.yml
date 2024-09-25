@@ -1,0 +1,31 @@
+vulnerability_id: VCID-yswd-dpya-r3g1
+aliases:
+  - CVE-2019-11358
+summary: |
+  Modification of Assumed-Immutable Data (MAID)
+  Prototype pollution attack through jQuery $.extend
+severities:
+  - score: '5.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/454365
+      reference_type:
+      reference_id:
+  - score: '5.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/496.json
+      reference_type:
+      reference_id: 496
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/454365
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/496.json
+    reference_type:
+    reference_id: 496

@@ -1,0 +1,33 @@
+vulnerability_id: VCID-sw55-w4t2-8ybs
+aliases:
+  - CVE-2016-1000240
+summary: |
+  XSS via tooltips
+  c3 is a D3-based reusable chart library that enables deeper integration of charts into web applications.
+
+  Versions 0.4.10 and lower of c3 contain a cross site scripting (XSS) vulnerability through improper html sanitization on rendered tooltips.
+severities:
+  - score: '4.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/c3js/c3/issues/1536
+      reference_type:
+      reference_id:
+  - score: '4.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/138.json
+      reference_type:
+      reference_id: 138
+weaknesses: []
+references:
+  - url: https://github.com/c3js/c3/issues/1536
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/138.json
+    reference_type:
+    reference_id: 138

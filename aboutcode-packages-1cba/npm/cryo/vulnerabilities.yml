@@ -1,0 +1,4 @@
+- purl: pkg:npm/cryo@0.0.6
+  affected_by_vulnerabilities:
+    - VCID-yd34-b4gw-e3aw
+  fixing_vulnerabilities: []

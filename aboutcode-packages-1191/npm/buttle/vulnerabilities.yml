@@ -1,0 +1,4 @@
+- purl: pkg:npm/buttle@0.2.0
+  affected_by_vulnerabilities:
+    - VCID-qgc7-vkwe-6qej
+  fixing_vulnerabilities: []

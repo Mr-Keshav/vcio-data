@@ -1,0 +1,8 @@
+- purl: pkg:npm/rendr@1.1.3
+  affected_by_vulnerabilities:
+    - VCID-j8ss-bj12-8ydg
+  fixing_vulnerabilities: []
+- purl: pkg:npm/rendr@1.1.4
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-j8ss-bj12-8ydg

@@ -1,0 +1,4 @@
+- purl: pkg:npm/anywhere@1.5.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-mgpy-tg9j-muhg

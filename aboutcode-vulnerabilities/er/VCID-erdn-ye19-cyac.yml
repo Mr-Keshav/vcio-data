@@ -1,0 +1,39 @@
+vulnerability_id: VCID-erdn-ye19-cyac
+aliases:
+  - CVE-2015-1369
+summary: |
+  SQL Injection is possible in an application using the npm module sequelize if untrusted user input is passed into the order parameter.
+
+
+  Example:
+  ```
+  Test.findAndCountAll({
+  where: { id :1 },
+  order : [['id', 'UNTRUSTED USER INPUT']]
+  })
+  ```
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/sequelize/sequelize/issues/2906
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/33.json
+      reference_type:
+      reference_id: 33
+weaknesses: []
+references:
+  - url: https://github.com/sequelize/sequelize/issues/2906
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/33.json
+    reference_type:
+    reference_id: 33

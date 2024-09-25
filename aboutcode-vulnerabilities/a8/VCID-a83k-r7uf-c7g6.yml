@@ -1,0 +1,49 @@
+vulnerability_id: VCID-a83k-r7uf-c7g6
+aliases:
+  - CVE-2015-5688
+summary: |
+  Directory Traversal
+  Geddy static file serving allows directory traversal with a URI encoded path.
+
+  ### Example
+  ```
+  http://localhost:4000/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
+
+  geddy is serving the output as it doesn't match the routes and it's a static file
+  ```
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/geddy/geddy/issues/697
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/geddy/geddy/pull/699
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/10.json
+      reference_type:
+      reference_id: 10
+weaknesses: []
+references:
+  - url: https://github.com/geddy/geddy/issues/697
+    reference_type:
+    reference_id:
+  - url: https://github.com/geddy/geddy/pull/699
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/10.json
+    reference_type:
+    reference_id: 10

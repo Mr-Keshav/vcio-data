@@ -1,0 +1,35 @@
+vulnerability_id: VCID-y7ye-uype-8kex
+aliases:
+  - CVE-2013-4940
+summary: |
+  XSS via .swf files
+  YUI is a free, open source JavaScript and CSS framework for building richly interactive web applications.
+
+  In the vulnerable versions, the `uploader.swf` and `io.swf` utilities contain a vulnerability allowing cross-site scripting through the `.swf` files used in these components. Through a url accessing these files, and attacker can inject script in the context of these files, potentially exposing cookies or other sensitive information.
+
+  The vulnerability resurfaced in v0.10.2, but only with `io.swf`.
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://yuilibrary.com/support/20130515-vulnerability/)
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/332.json
+      reference_type:
+      reference_id: 332
+weaknesses: []
+references:
+  - url: https://yuilibrary.com/support/20130515-vulnerability/)
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/332.json
+    reference_type:
+    reference_id: 332

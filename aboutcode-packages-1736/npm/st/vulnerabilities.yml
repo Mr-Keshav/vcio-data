@@ -1,0 +1,4 @@
+- purl: pkg:npm/st@0.2.5
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-esvm-tyhv-nqer

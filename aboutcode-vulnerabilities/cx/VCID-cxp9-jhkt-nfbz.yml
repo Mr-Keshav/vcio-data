@@ -1,0 +1,42 @@
+vulnerability_id: VCID-cxp9-jhkt-nfbz
+aliases:
+  - CVE-2017-0931
+summary: |
+  html-janitor passing user-controlled data to clean() leads to XSS
+  Passing user-controlled data to the module's clean() function can result in arbitrary JS execution, because of unsafe DOM operations.
+severities:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/guardian/html-janitor/issues/34
+      reference_type:
+      reference_id:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/308155
+      reference_type:
+      reference_id:
+  - score: '9.8'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/366.json
+      reference_type:
+      reference_id: 366
+weaknesses: []
+references:
+  - url: https://github.com/guardian/html-janitor/issues/34
+    reference_type:
+    reference_id:
+  - url: https://hackerone.com/reports/308155
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/366.json
+    reference_type:
+    reference_id: 366

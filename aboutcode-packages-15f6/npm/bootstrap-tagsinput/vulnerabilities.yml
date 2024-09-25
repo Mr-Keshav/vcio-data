@@ -1,0 +1,4 @@
+- purl: pkg:npm/bootstrap-tagsinput@0.8.0
+  affected_by_vulnerabilities:
+    - VCID-eb5t-xq7a-r3hh
+  fixing_vulnerabilities: []

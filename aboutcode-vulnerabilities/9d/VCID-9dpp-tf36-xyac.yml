@@ -1,0 +1,31 @@
+vulnerability_id: VCID-9dpp-tf36-xyac
+aliases:
+  - CVE-2018-16474
+summary: |
+  Cross-site Scripting (XSS) - Stored
+  [tianma-static] Stored xss on filename
+severities:
+  - score: '6.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/403692
+      reference_type:
+      reference_id:
+  - score: '6.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/479.json
+      reference_type:
+      reference_id: 479
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/403692
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/479.json
+    reference_type:
+    reference_id: 479

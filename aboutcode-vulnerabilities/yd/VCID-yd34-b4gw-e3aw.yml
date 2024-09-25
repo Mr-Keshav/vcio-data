@@ -1,0 +1,31 @@
+vulnerability_id: VCID-yd34-b4gw-e3aw
+aliases:
+  - CVE-2018-3784
+summary: |
+  Code Injection
+  Insecure implementation of deserialization in cryo
+severities:
+  - score: '8.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/350418
+      reference_type:
+      reference_id:
+  - score: '8.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/461.json
+      reference_type:
+      reference_id: 461
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/350418
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/461.json
+    reference_type:
+    reference_id: 461

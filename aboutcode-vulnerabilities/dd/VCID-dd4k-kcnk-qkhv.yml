@@ -1,0 +1,31 @@
+vulnerability_id: VCID-dd4k-kcnk-qkhv
+aliases:
+  - CVE-2016-1000237
+summary: |
+  XSS - Sanitization not applied recursively
+  Sanitization of HTML strings is not applied recursively to input, allowing an attacker to potentially inject script and other markup.
+severities:
+  - score: '4.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/punkave/sanitize-html/issues/29
+      reference_type:
+      reference_id:
+  - score: '4.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/135.json
+      reference_type:
+      reference_id: 135
+weaknesses: []
+references:
+  - url: https://github.com/punkave/sanitize-html/issues/29
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/135.json
+    reference_type:
+    reference_id: 135

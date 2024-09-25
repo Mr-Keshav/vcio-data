@@ -1,0 +1,4 @@
+- pkg:npm/mqtt@0.3.13
+- pkg:npm/mqtt@1.0.0
+- pkg:npm/mqtt@2.0.0
+- pkg:npm/mqtt@2.15.0

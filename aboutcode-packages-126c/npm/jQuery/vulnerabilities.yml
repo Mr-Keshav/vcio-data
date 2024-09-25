@@ -1,0 +1,5 @@
+- purl: pkg:npm/jQuery@3.4.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-4pam-65rz-rffs
+    - VCID-yswd-dpya-r3g1

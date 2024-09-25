@@ -1,0 +1,31 @@
+vulnerability_id: VCID-pw4k-vmch-v7e3
+aliases:
+  - CVE-2018-16473
+summary: |
+  Path Traversal
+  [takeapeek] Path traversal allow to expose directory and files
+severities:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/403736
+      reference_type:
+      reference_id:
+  - score: '8.6'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/478.json
+      reference_type:
+      reference_id: 478
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/403736
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/478.json
+    reference_type:
+    reference_id: 478

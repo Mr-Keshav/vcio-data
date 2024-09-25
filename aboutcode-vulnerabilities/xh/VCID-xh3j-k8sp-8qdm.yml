@@ -1,0 +1,31 @@
+vulnerability_id: VCID-xh3j-k8sp-8qdm
+aliases:
+  - CVE-2018-3809
+summary: |
+  Information Exposure Through Directory Listing
+  [serve] Directory listing and File access even when they have been set to be ignored
+severities:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/330650
+      reference_type:
+      reference_id:
+  - score: '9.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/439.json
+      reference_type:
+      reference_id: 439
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/330650
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/439.json
+    reference_type:
+    reference_id: 439

