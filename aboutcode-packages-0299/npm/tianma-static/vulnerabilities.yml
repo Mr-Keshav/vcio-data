@@ -1,3 +1,31 @@
+- purl: pkg:npm/tianma-static@1.0.0
+  affected_by_vulnerabilities:
+    - VCID-9dpp-tf36-xyac
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tianma-static@1.0.0-b0
+  affected_by_vulnerabilities:
+    - VCID-9dpp-tf36-xyac
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tianma-static@1.0.0-b1
+  affected_by_vulnerabilities:
+    - VCID-9dpp-tf36-xyac
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tianma-static@1.0.0-b2
+  affected_by_vulnerabilities:
+    - VCID-9dpp-tf36-xyac
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tianma-static@1.0.1
+  affected_by_vulnerabilities:
+    - VCID-9dpp-tf36-xyac
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tianma-static@1.0.2
+  affected_by_vulnerabilities:
+    - VCID-9dpp-tf36-xyac
+  fixing_vulnerabilities: []
+- purl: pkg:npm/tianma-static@1.0.3
+  affected_by_vulnerabilities:
+    - VCID-9dpp-tf36-xyac
+  fixing_vulnerabilities: []
 - purl: pkg:npm/tianma-static@1.0.4
   affected_by_vulnerabilities:
     - VCID-9dpp-tf36-xyac

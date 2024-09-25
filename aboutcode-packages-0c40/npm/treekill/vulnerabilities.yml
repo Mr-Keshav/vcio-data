@@ -1,0 +1,8 @@
+- purl: pkg:npm/treekill@0.0.0
+  affected_by_vulnerabilities:
+    - VCID-uy4p-s4zs-6kf4
+  fixing_vulnerabilities: []
+- purl: pkg:npm/treekill@1.0.0
+  affected_by_vulnerabilities:
+    - VCID-uy4p-s4zs-6kf4
+  fixing_vulnerabilities: []

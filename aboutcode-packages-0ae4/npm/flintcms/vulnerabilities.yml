@@ -2,6 +2,10 @@
   affected_by_vulnerabilities: []
   fixing_vulnerabilities:
     - VCID-b3g8-a643-mqh5
+- purl: pkg:npm/flintcms@1.1.8
+  affected_by_vulnerabilities:
+    - VCID-b3g8-a643-mqh5
+  fixing_vulnerabilities: []
 - purl: pkg:npm/flintcms@1.1.9
   affected_by_vulnerabilities:
     - VCID-b3g8-a643-mqh5
