@@ -1,0 +1,16 @@
+vulnerability_id: VCID-d5k9-epsx-z7bu
+aliases:
+  - CVE-2009-3896
+summary: Null pointer dereference vulnerability
+severities: []
+weaknesses: []
+references:
+  - url: https://nginx.org/download/patch.null.pointer.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.null.pointer.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2009-3896
+    reference_type:
+    reference_id: CVE-2009-3896

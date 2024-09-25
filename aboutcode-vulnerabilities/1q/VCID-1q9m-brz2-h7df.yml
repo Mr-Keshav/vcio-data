@@ -1,0 +1,33 @@
+vulnerability_id: VCID-1q9m-brz2-h7df
+aliases:
+  - CVE-2013-2070
+summary: Memory disclosure with specially crafted HTTP backend responses
+severities:
+  - score: medium
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2013/000114.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2013/000114.html
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2013.chunked.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2013.chunked.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2013.proxy.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2013.proxy.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2013-2070
+    reference_type:
+    reference_id: CVE-2013-2070

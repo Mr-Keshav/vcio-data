@@ -1,0 +1,17 @@
+vulnerability_id: VCID-v1vd-epqk-ubex
+aliases:
+  - CVE-2009-2629
+  - VU#180065
+summary: Buffer underflow vulnerability
+severities: []
+weaknesses: []
+references:
+  - url: https://nginx.org/download/patch.180065.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.180065.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2009-2629
+    reference_type:
+    reference_id: CVE-2009-2629

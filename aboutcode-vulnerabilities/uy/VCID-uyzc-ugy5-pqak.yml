@@ -1,0 +1,27 @@
+vulnerability_id: VCID-uyzc-ugy5-pqak
+aliases:
+  - CVE-2022-41742
+summary: Memory disclosure in the ngx_http_mp4_module
+severities:
+  - score: medium
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2022/RBRRON6PYBJJM2XIAPQBFBVLR4Q6IHRA.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2022/RBRRON6PYBJJM2XIAPQBFBVLR4Q6IHRA.html
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2022.mp4.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2022.mp4.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2022-41742
+    reference_type:
+    reference_id: CVE-2022-41742

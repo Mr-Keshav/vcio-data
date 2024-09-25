@@ -1,0 +1,13 @@
+vulnerability_id: VCID-cnrh-7cbr-5fhx
+aliases:
+  - CVE-2024-24990
+summary: Use-after-free in HTTP/3
+severities: []
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2024/NW6MNW34VZ6HDIHH5YFBIJYZJN7FGNAV.html
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2024-24990
+    reference_type:
+    reference_id: CVE-2024-24990

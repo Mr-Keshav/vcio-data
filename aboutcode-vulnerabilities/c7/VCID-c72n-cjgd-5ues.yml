@@ -1,0 +1,10 @@
+vulnerability_id: VCID-c72n-cjgd-5ues
+aliases:
+  - CVE-2010-2263
+summary: Vulnerabilities with Windows file default stream
+severities: []
+weaknesses: []
+references:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2010-2263
+    reference_type:
+    reference_id: CVE-2010-2263

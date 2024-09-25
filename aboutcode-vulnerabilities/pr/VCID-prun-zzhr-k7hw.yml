@@ -1,0 +1,27 @@
+vulnerability_id: VCID-prun-zzhr-k7hw
+aliases:
+  - CVE-2021-23017
+summary: 1-byte memory overwrite in resolver
+severities:
+  - score: medium
+    scoring_system: generic_textual
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://mailman.nginx.org/pipermail/nginx-announce/2021/000300.html
+      reference_type:
+      reference_id:
+weaknesses: []
+references:
+  - url: https://mailman.nginx.org/pipermail/nginx-announce/2021/000300.html
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2021.resolver.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.2021.resolver.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2021-23017
+    reference_type:
+    reference_id: CVE-2021-23017

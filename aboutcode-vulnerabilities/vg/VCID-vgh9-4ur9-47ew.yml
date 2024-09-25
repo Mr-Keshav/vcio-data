@@ -1,0 +1,17 @@
+vulnerability_id: VCID-vgh9-4ur9-47ew
+aliases:
+  - CVE-2009-3555
+  - VU#120541
+summary: The renegotiation vulnerability in SSL protocol
+severities: []
+weaknesses: []
+references:
+  - url: https://nginx.org/download/patch.cve-2009-3555.txt
+    reference_type:
+    reference_id:
+  - url: https://nginx.org/download/patch.cve-2009-3555.txt.asc
+    reference_type:
+    reference_id:
+  - url: https://nvd.nist.gov/vuln/detail/CVE-2009-3555
+    reference_type:
+    reference_id: CVE-2009-3555
