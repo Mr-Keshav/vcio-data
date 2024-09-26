@@ -1,3 +1,11 @@
+- purl: pkg:npm/public@0.1.0
+  affected_by_vulnerabilities:
+    - VCID-z51g-afz9-2bam
+  fixing_vulnerabilities: []
+- purl: pkg:npm/public@0.1.1
+  affected_by_vulnerabilities:
+    - VCID-z51g-afz9-2bam
+  fixing_vulnerabilities: []
 - purl: pkg:npm/public@0.1.2
   affected_by_vulnerabilities:
     - VCID-z51g-afz9-2bam

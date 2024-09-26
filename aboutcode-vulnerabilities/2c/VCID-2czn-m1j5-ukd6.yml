@@ -1,0 +1,42 @@
+vulnerability_id: VCID-2czn-m1j5-ukd6
+aliases:
+  - CVE-2016-1000238
+summary: |
+  Spoofing attack due to unvalidated KDC
+  This module does not validate the KDC, which might allow an attacker with network access and enough time to spoof the KDC and impersonate a valid user without knowing their credentials.
+severities:
+  - score: '5.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: http://archive.hack.lu/2010/Bouillon-Stealing-credentials-for-impersonation.pdf
+      reference_type:
+      reference_id:
+  - score: '5.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/qesuto/node-krb5/issues/13
+      reference_type:
+      reference_id:
+  - score: '5.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/136.json
+      reference_type:
+      reference_id: 136
+weaknesses: []
+references:
+  - url: http://archive.hack.lu/2010/Bouillon-Stealing-credentials-for-impersonation.pdf
+    reference_type:
+    reference_id:
+  - url: https://github.com/qesuto/node-krb5/issues/13
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/136.json
+    reference_type:
+    reference_id: 136

@@ -1,3 +1,11 @@
+- purl: pkg:npm/query-mysql@0.0.0
+  affected_by_vulnerabilities:
+    - VCID-5msg-jpaf-xfcb
+  fixing_vulnerabilities: []
+- purl: pkg:npm/query-mysql@0.0.1
+  affected_by_vulnerabilities:
+    - VCID-5msg-jpaf-xfcb
+  fixing_vulnerabilities: []
 - purl: pkg:npm/query-mysql@0.0.2
   affected_by_vulnerabilities:
     - VCID-5msg-jpaf-xfcb
