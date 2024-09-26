@@ -1,3 +1,11 @@
+- purl: pkg:npm/libnotify@1.0.1
+  affected_by_vulnerabilities:
+    - VCID-kx1j-86sy-1fh9
+  fixing_vulnerabilities: []
+- purl: pkg:npm/libnotify@1.0.2
+  affected_by_vulnerabilities:
+    - VCID-kx1j-86sy-1fh9
+  fixing_vulnerabilities: []
 - purl: pkg:npm/libnotify@1.0.3
   affected_by_vulnerabilities:
     - VCID-kx1j-86sy-1fh9

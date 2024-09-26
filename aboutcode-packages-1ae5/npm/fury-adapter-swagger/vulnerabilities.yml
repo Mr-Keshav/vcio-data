@@ -1,0 +1,12 @@
+- purl: pkg:npm/fury-adapter-swagger@0.2.0
+  affected_by_vulnerabilities:
+    - VCID-3q1p-vtnm-m7hv
+  fixing_vulnerabilities: []
+- purl: pkg:npm/fury-adapter-swagger@0.8.0
+  affected_by_vulnerabilities:
+    - VCID-3q1p-vtnm-m7hv
+  fixing_vulnerabilities: []
+- purl: pkg:npm/fury-adapter-swagger@0.9.6
+  affected_by_vulnerabilities:
+    - VCID-3q1p-vtnm-m7hv
+  fixing_vulnerabilities: []

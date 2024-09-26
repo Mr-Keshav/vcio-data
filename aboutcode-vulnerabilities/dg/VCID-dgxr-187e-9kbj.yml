@@ -1,0 +1,31 @@
+vulnerability_id: VCID-dgxr-187e-9kbj
+aliases:
+  - CVE-2019-15602
+summary: |
+  Cross-site Scripting (XSS) - Stored
+  [fileview] Inadequate Output Encoding and Escaping
+severities:
+  - score: '7.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/507159
+      reference_type:
+      reference_id:
+  - score: '7.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/510.json
+      reference_type:
+      reference_id: 510
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/507159
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/510.json
+    reference_type:
+    reference_id: 510

@@ -1,0 +1,46 @@
+vulnerability_id: VCID-7ppz-n99d-dba6
+aliases:
+  - CVE-2016-1000228
+summary: |
+  DOM-based XSS
+  gmail-js is a client side library for interacting with the Gmail API.
+
+  Three functions exposed by the Gmail.js API (not the Google Gmail API) are vulnerable to [DOM-based cross site scripting](https://www.owasp.org/index.php/DOM_Based_XSS) (DOMXSS).  The three functions are `tools.parse_response`, `helper.get.visible_emails_post`, and `helper.get.email_data_post`.  Each one of these functions calls `new Function()` with user data passed as the argument.
+
+  This vulnerability is being disclosed before a public patched version is available because the issue was reported in a public Github issue.
+severities:
+  - score: '8.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/KartikTalwar/gmail.js/issues/281
+      reference_type:
+      reference_id:
+  - score: '8.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://www.owasp.org/index.php/DOM_Based_XSS
+      reference_type:
+      reference_id:
+  - score: '8.1'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/125.json
+      reference_type:
+      reference_id: 125
+weaknesses: []
+references:
+  - url: https://github.com/KartikTalwar/gmail.js/issues/281
+    reference_type:
+    reference_id:
+  - url: https://www.owasp.org/index.php/DOM_Based_XSS
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/125.json
+    reference_type:
+    reference_id: 125
