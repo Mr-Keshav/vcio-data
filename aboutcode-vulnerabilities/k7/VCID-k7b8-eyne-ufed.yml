@@ -1,0 +1,31 @@
+vulnerability_id: VCID-k7b8-eyne-ufed
+aliases:
+  - CVE-2019-15600
+summary: |
+  Path Traversal
+  Path traversal in https://www.npmjs.com/package/http_server via symlink
+severities:
+  - score: '5.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/692262
+      reference_type:
+      reference_id:
+  - score: '5.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/509.json
+      reference_type:
+      reference_id: 509
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/692262
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/509.json
+    reference_type:
+    reference_id: 509

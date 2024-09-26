@@ -1,0 +1,8 @@
+- purl: pkg:npm/http_server@1.0.11
+  affected_by_vulnerabilities:
+    - VCID-k7b8-eyne-ufed
+  fixing_vulnerabilities: []
+- purl: pkg:npm/http_server@1.0.12
+  affected_by_vulnerabilities:
+    - VCID-k7b8-eyne-ufed
+  fixing_vulnerabilities: []

@@ -1,0 +1,31 @@
+vulnerability_id: VCID-59ye-zkw5-nya2
+aliases:
+  - CVE-2014-7191
+summary: |
+  Denial-of-Service Memory Exhaustion
+  The qs module has the ability to create sparse arrays during parsing. By specifying a high index it is possible to create a large array that will eventually take up all the allocated memory of the running process, resulting in a crash.
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/visionmedia/node-querystring/issues/104
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/29.json
+      reference_type:
+      reference_id: 29
+weaknesses: []
+references:
+  - url: https://github.com/visionmedia/node-querystring/issues/104
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/29.json
+    reference_type:
+    reference_id: 29

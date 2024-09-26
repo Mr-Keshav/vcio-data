@@ -1,0 +1,31 @@
+vulnerability_id: VCID-y8mn-fsh2-e3eb
+aliases:
+  - CVE-2014-8883
+summary: |
+  Directory Traversal
+  All versions of the static file server module nhouston are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.
+severities:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: http://en.wikipedia.org/wiki/Directory_traversal_attack
+      reference_type:
+      reference_id:
+  - score: '5.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/25.json
+      reference_type:
+      reference_id: 25
+weaknesses: []
+references:
+  - url: http://en.wikipedia.org/wiki/Directory_traversal_attack
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/25.json
+    reference_type:
+    reference_id: 25

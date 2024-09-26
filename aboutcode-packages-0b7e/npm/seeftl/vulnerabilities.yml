@@ -1,0 +1,8 @@
+- purl: pkg:npm/seeftl@0.1.0
+  affected_by_vulnerabilities:
+    - VCID-3b2z-jj1j-vfey
+  fixing_vulnerabilities: []
+- purl: pkg:npm/seeftl@0.1.1
+  affected_by_vulnerabilities:
+    - VCID-3b2z-jj1j-vfey
+  fixing_vulnerabilities: []

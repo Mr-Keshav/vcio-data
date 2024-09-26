@@ -1,0 +1,31 @@
+vulnerability_id: VCID-5ey7-a2yp-f7av
+aliases:
+  - CVE-2018-16491
+summary: |
+  Denial of Service
+  Prototype pollution attack in node.extend
+severities:
+  - score: '5.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/430831
+      reference_type:
+      reference_id:
+  - score: '5.7'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/490.json
+      reference_type:
+      reference_id: 490
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/430831
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/490.json
+    reference_type:
+    reference_id: 490
