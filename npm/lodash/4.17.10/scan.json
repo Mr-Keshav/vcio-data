@@ -213,7 +213,7 @@
     },
     {
       "pipeline_name": "publish_to_federatedcode",
-      "status": "running",
+      "status": "failure",
       "description": "Publish package scan to FederatedCode Git repository.",
       "selected_groups": [],
       "selected_steps": null,
@@ -222,10 +222,27 @@
       "scancodeio_version": "v34.8.1-5-g6e131c6",
       "task_id": "edf3d230-d536-4400-8d5e-90c2d47cda48",
       "task_start_date": "2024-10-07T17:44:45.742624Z",
+      "task_end_date": "2024-10-07T17:44:50.637295Z",
+      "task_exitcode": 1,
+      "task_output": "'PublishToFederatedCode' object has no attribute 'local_clone_path'\n\nTraceback:\n  File \"/home/kpriyadarshi/Multiverse/scancode.io/aboutcode/pipeline/__init__.py\", line 199, in execute\n    step(self)\n  File \"/home/kpriyadarshi/Multiverse/scancode.io/scanpipe/pipelines/publish_to_federatedcode.py\", line 97, in delete_local_clone\n    shutil.rmtree(self.local_clone_path)\n",
+      "log": "2024-10-07 17:44:45.743 Pipeline [publish_to_federatedcode] starting\n2024-10-07 17:44:45.745 Step [get_package] starting\n2024-10-07 17:44:45.757 Step [get_package] completed in 0 seconds\n2024-10-07 17:44:45.760 Step [get_package_repository] starting\n2024-10-07 17:44:45.761 Step [get_package_repository] completed in 0 seconds\n2024-10-07 17:44:45.764 Step [clone_repository] starting\n2024-10-07 17:44:46.984 Step [clone_repository] completed in 1 seconds\n2024-10-07 17:44:46.988 Step [add_scan_result] starting\n2024-10-07 17:44:48.472 Step [add_scan_result] completed in 1 seconds\n2024-10-07 17:44:48.475 Step [commit_and_push_changes] starting\n2024-10-07 17:44:50.623 Step [commit_and_push_changes] completed in 2 seconds\n2024-10-07 17:44:50.630 Step [delete_local_clone] starting\n2024-10-07 17:44:50.633 Pipeline failed\n",
+      "execution_time": 4
+    },
+    {
+      "pipeline_name": "publish_to_federatedcode",
+      "status": "running",
+      "description": "Publish package scan to FederatedCode Git repository.",
+      "selected_groups": [],
+      "selected_steps": null,
+      "uuid": "a4699221-3254-49f6-87f2-2664f6c28320",
+      "created_date": "2024-10-07T17:48:29.202261Z",
+      "scancodeio_version": "v34.8.1-5-g6e131c6",
+      "task_id": "a4699221-3254-49f6-87f2-2664f6c28320",
+      "task_start_date": "2024-10-07T17:48:29.226115Z",
       "task_end_date": null,
       "task_exitcode": null,
       "task_output": "",
-      "log": "2024-10-07 17:44:45.743 Pipeline [publish_to_federatedcode] starting\n2024-10-07 17:44:45.745 Step [get_package] starting\n2024-10-07 17:44:45.757 Step [get_package] completed in 0 seconds\n2024-10-07 17:44:45.760 Step [get_package_repository] starting\n2024-10-07 17:44:45.761 Step [get_package_repository] completed in 0 seconds\n2024-10-07 17:44:45.764 Step [clone_repository] starting\n2024-10-07 17:44:46.984 Step [clone_repository] completed in 1 seconds\n2024-10-07 17:44:46.988 Step [add_scan_result] starting\n",
+      "log": "2024-10-07 17:48:29.227 Pipeline [publish_to_federatedcode] starting\n2024-10-07 17:48:29.228 Step [get_package] starting\n2024-10-07 17:48:29.235 Step [get_package] completed in 0 seconds\n2024-10-07 17:48:29.237 Step [get_package_repository] starting\n2024-10-07 17:48:29.238 Step [get_package_repository] completed in 0 seconds\n2024-10-07 17:48:29.239 Step [clone_repository] starting\n2024-10-07 17:48:30.323 Step [clone_repository] completed in 1 seconds\n2024-10-07 17:48:30.326 Step [add_scan_result] starting\n",
       "execution_time": null
     }
   ],
