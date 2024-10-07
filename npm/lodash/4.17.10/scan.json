@@ -281,7 +281,7 @@
     },
     {
       "pipeline_name": "publish_to_federatedcode",
-      "status": "running",
+      "status": "success",
       "description": "Publish package scan to FederatedCode Git repository.",
       "selected_groups": [],
       "selected_steps": null,
@@ -290,10 +290,27 @@
       "scancodeio_version": "v34.8.1-5-g6e131c6",
       "task_id": "1cbbd890-613a-4b05-a933-e65dc3e30d80",
       "task_start_date": "2024-10-07T17:57:17.721406Z",
+      "task_end_date": "2024-10-07T17:57:22.478110Z",
+      "task_exitcode": 0,
+      "task_output": "",
+      "log": "2024-10-07 17:57:17.722 Pipeline [publish_to_federatedcode] starting\n2024-10-07 17:57:17.723 Step [get_package] starting\n2024-10-07 17:57:17.730 Step [get_package] completed in 0 seconds\n2024-10-07 17:57:17.732 Step [get_package_repository] starting\n2024-10-07 17:57:17.733 Step [get_package_repository] completed in 0 seconds\n2024-10-07 17:57:17.734 Step [clone_repository] starting\n2024-10-07 17:57:18.863 Step [clone_repository] completed in 1 seconds\n2024-10-07 17:57:18.865 Step [add_scan_result] starting\n2024-10-07 17:57:20.266 Step [add_scan_result] completed in 1 seconds\n2024-10-07 17:57:20.269 Step [commit_and_push_changes] starting\n2024-10-07 17:57:22.434 Step [commit_and_push_changes] completed in 2 seconds\n2024-10-07 17:57:22.440 Step [delete_local_clone] starting\n2024-10-07 17:57:22.473 Step [delete_local_clone] completed in 0 seconds\n2024-10-07 17:57:22.477 Pipeline completed in 5 seconds\n",
+      "execution_time": 4
+    },
+    {
+      "pipeline_name": "publish_to_federatedcode",
+      "status": "running",
+      "description": "Publish package scan to FederatedCode Git repository.",
+      "selected_groups": [],
+      "selected_steps": null,
+      "uuid": "7d7cf5ac-c8d6-456f-bc29-7e6c0f7ac13b",
+      "created_date": "2024-10-07T17:58:49.295036Z",
+      "scancodeio_version": "v34.8.1-5-g6e131c6",
+      "task_id": "7d7cf5ac-c8d6-456f-bc29-7e6c0f7ac13b",
+      "task_start_date": "2024-10-07T17:58:49.342014Z",
       "task_end_date": null,
       "task_exitcode": null,
       "task_output": "",
-      "log": "2024-10-07 17:57:17.722 Pipeline [publish_to_federatedcode] starting\n2024-10-07 17:57:17.723 Step [get_package] starting\n2024-10-07 17:57:17.730 Step [get_package] completed in 0 seconds\n2024-10-07 17:57:17.732 Step [get_package_repository] starting\n2024-10-07 17:57:17.733 Step [get_package_repository] completed in 0 seconds\n2024-10-07 17:57:17.734 Step [clone_repository] starting\n2024-10-07 17:57:18.863 Step [clone_repository] completed in 1 seconds\n2024-10-07 17:57:18.865 Step [add_scan_result] starting\n",
+      "log": "2024-10-07 17:58:49.343 Pipeline [publish_to_federatedcode] starting\n2024-10-07 17:58:49.346 Step [get_package] starting\n2024-10-07 17:58:49.355 Step [get_package] completed in 0 seconds\n2024-10-07 17:58:49.357 Step [get_package_repository] starting\n2024-10-07 17:58:49.358 Step [get_package_repository] completed in 0 seconds\n2024-10-07 17:58:49.360 Step [clone_repository] starting\n2024-10-07 17:58:50.556 Step [clone_repository] completed in 1 seconds\n2024-10-07 17:58:50.559 Step [add_scan_result] starting\n",
       "execution_time": null
     }
   ],
