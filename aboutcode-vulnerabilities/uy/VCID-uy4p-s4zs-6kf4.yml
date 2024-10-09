@@ -1,0 +1,31 @@
+vulnerability_id: VCID-uy4p-s4zs-6kf4
+aliases:
+  - CVE-2019-15598
+summary: |
+  Code Injection
+  [treekill] RCE via insecure command concatenation (only Windows)
+severities:
+  - score: '7.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/703415
+      reference_type:
+      reference_id:
+  - score: '7.3'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/507.json
+      reference_type:
+      reference_id: 507
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/703415
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/507.json
+    reference_type:
+    reference_id: 507

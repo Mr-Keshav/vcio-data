@@ -1,3 +1,38 @@
+- purl: pkg:npm/defaults-deep@0.1.0
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+    - VCID-ugkk-e9c1-3ya7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/defaults-deep@0.1.1
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+    - VCID-ugkk-e9c1-3ya7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/defaults-deep@0.1.2
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+    - VCID-ugkk-e9c1-3ya7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/defaults-deep@0.2.0
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+    - VCID-ugkk-e9c1-3ya7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/defaults-deep@0.2.1
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+    - VCID-ugkk-e9c1-3ya7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/defaults-deep@0.2.2
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+    - VCID-ugkk-e9c1-3ya7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/defaults-deep@0.2.3
+  affected_by_vulnerabilities:
+    - VCID-cq6k-qb2x-gue2
+    - VCID-ugkk-e9c1-3ya7
+  fixing_vulnerabilities: []
 - purl: pkg:npm/defaults-deep@0.2.4
   affected_by_vulnerabilities:
     - VCID-cq6k-qb2x-gue2

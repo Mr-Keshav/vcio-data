@@ -1,3 +1,28 @@
+- purl: pkg:npm/jQuery@1.6.2
+  affected_by_vulnerabilities:
+    - VCID-4pam-65rz-rffs
+    - VCID-yswd-dpya-r3g1
+  fixing_vulnerabilities: []
+- purl: pkg:npm/jQuery@1.6.3
+  affected_by_vulnerabilities:
+    - VCID-4pam-65rz-rffs
+    - VCID-yswd-dpya-r3g1
+  fixing_vulnerabilities: []
+- purl: pkg:npm/jQuery@1.7.2
+  affected_by_vulnerabilities:
+    - VCID-4pam-65rz-rffs
+    - VCID-yswd-dpya-r3g1
+  fixing_vulnerabilities: []
+- purl: pkg:npm/jQuery@1.7.3
+  affected_by_vulnerabilities:
+    - VCID-4pam-65rz-rffs
+    - VCID-yswd-dpya-r3g1
+  fixing_vulnerabilities: []
+- purl: pkg:npm/jQuery@1.7.4
+  affected_by_vulnerabilities:
+    - VCID-4pam-65rz-rffs
+    - VCID-yswd-dpya-r3g1
+  fixing_vulnerabilities: []
 - purl: pkg:npm/jQuery@3.4.0
   affected_by_vulnerabilities: []
   fixing_vulnerabilities:
