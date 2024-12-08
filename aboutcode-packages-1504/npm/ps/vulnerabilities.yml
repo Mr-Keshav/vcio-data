@@ -1,3 +1,15 @@
+- purl: pkg:npm/ps@0.0.0
+  affected_by_vulnerabilities:
+    - VCID-c2xq-zuqp-93ez
+  fixing_vulnerabilities: []
+- purl: pkg:npm/ps@0.0.1
+  affected_by_vulnerabilities:
+    - VCID-c2xq-zuqp-93ez
+  fixing_vulnerabilities: []
+- purl: pkg:npm/ps@0.0.2
+  affected_by_vulnerabilities:
+    - VCID-c2xq-zuqp-93ez
+  fixing_vulnerabilities: []
 - purl: pkg:npm/ps@1.0.0
   affected_by_vulnerabilities: []
   fixing_vulnerabilities:

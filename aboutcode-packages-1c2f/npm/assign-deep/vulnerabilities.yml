@@ -1,3 +1,47 @@
+- purl: pkg:npm/assign-deep@0.1.0
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.1.2
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.3.0
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.3.1
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.4.0
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.4.1
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.4.2
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.4.3
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.4.4
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.4.5
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
+- purl: pkg:npm/assign-deep@0.4.6
+  affected_by_vulnerabilities:
+    - VCID-t2vc-x3p8-2qg7
+  fixing_vulnerabilities: []
 - purl: pkg:npm/assign-deep@0.4.7
   affected_by_vulnerabilities: []
   fixing_vulnerabilities:

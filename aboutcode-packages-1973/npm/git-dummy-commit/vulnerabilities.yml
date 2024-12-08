@@ -1,3 +1,23 @@
+- purl: pkg:npm/git-dummy-commit@1.0.0
+  affected_by_vulnerabilities:
+    - VCID-cs66-76ch-9kd5
+  fixing_vulnerabilities: []
+- purl: pkg:npm/git-dummy-commit@1.1.0
+  affected_by_vulnerabilities:
+    - VCID-cs66-76ch-9kd5
+  fixing_vulnerabilities: []
+- purl: pkg:npm/git-dummy-commit@1.1.1
+  affected_by_vulnerabilities:
+    - VCID-cs66-76ch-9kd5
+  fixing_vulnerabilities: []
+- purl: pkg:npm/git-dummy-commit@1.2.0
+  affected_by_vulnerabilities:
+    - VCID-cs66-76ch-9kd5
+  fixing_vulnerabilities: []
+- purl: pkg:npm/git-dummy-commit@1.2.1
+  affected_by_vulnerabilities:
+    - VCID-cs66-76ch-9kd5
+  fixing_vulnerabilities: []
 - purl: pkg:npm/git-dummy-commit@1.3.0
   affected_by_vulnerabilities:
     - VCID-cs66-76ch-9kd5

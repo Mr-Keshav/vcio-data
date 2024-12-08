@@ -1,0 +1,31 @@
+vulnerability_id: VCID-6pdb-zwdd-cuha
+aliases:
+  - CVE-2019-15597
+summary: |
+  Code Injection
+  [node-df] RCE via insecure command concatenation
+severities:
+  - score: '8.4'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/703412
+      reference_type:
+      reference_id:
+  - score: '8.4'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/506.json
+      reference_type:
+      reference_id: 506
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/703412
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/506.json
+    reference_type:
+    reference_id: 506

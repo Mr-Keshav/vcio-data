@@ -1,0 +1,31 @@
+vulnerability_id: VCID-r5p6-8ze4-6yes
+aliases:
+  - CVE-2019-15596
+summary: |
+  Path Traversal
+  Path traversal using symlink
+severities:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://hackerone.com/reports/695416
+      reference_type:
+      reference_id:
+  - score: '7.5'
+    scoring_system: cvssv3
+    scoring_elements:
+    published_at:
+    reference:
+      url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/504.json
+      reference_type:
+      reference_id: 504
+weaknesses: []
+references:
+  - url: https://hackerone.com/reports/695416
+    reference_type:
+    reference_id:
+  - url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/504.json
+    reference_type:
+    reference_id: 504
